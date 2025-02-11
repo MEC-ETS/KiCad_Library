@@ -1,0 +1,254 @@
+(footprint "42852732091X_16POS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<B>WS-ROTV </B><BR>THT Rotary Switch with Arrow Type Actuator 10x10 mm")
+	(property "Reference" "REF**"
+		(at 0.143 -6.6909 0)
+		(layer "F.SilkS")
+		(uuid "0fdf2fe6-de78-44ba-b8ce-a630ea915591")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "42852732091X_16POS"
+		(at 8.038 6.4284 0)
+		(layer "F.Fab")
+		(uuid "4cc74efa-6373-4266-b0b6-392a98c36cae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da797eac-1f2f-44cc-9574-85ad47449b4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cdb26a2e-9ec1-455b-8398-63a2f3f73958")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3414284-03c7-4955-96ed-8ba08b249ede")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.1 -4.1)
+		(end -4.1 -5.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45640743-9ef1-4c59-9ed3-5cd43f96e690")
+	)
+	(fp_line
+		(start -5.1 5.1)
+		(end -5.1 -4.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68706b4b-da89-453a-a3f4-6aaaf95f7ac1")
+	)
+	(fp_line
+		(start -4.1 -5.1)
+		(end 5.1 -5.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "864957f4-b833-4bd6-be2a-eb0c7baf3d52")
+	)
+	(fp_line
+		(start 5.1 -5.1)
+		(end 5.1 5.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9b7547d-1806-4e23-a6e8-7200f4f5d331")
+	)
+	(fp_line
+		(start 5.1 5.1)
+		(end -5.1 5.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc0a3e27-1d33-4593-af2c-0dc207480643")
+	)
+	(fp_circle
+		(center -2.3 -2.9)
+		(end -2.2 -2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "500715b1-8ca1-4789-83ab-67f3a68f8f2b")
+	)
+	(fp_poly
+		(pts
+			(xy 5.3 -5.3) (xy 5.3 5.3) (xy -5.3 5.3) (xy -5.3 -5.3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "2bf3194e-4dff-414d-bd9e-65b5e871461e")
+	)
+	(fp_line
+		(start -5 -4)
+		(end -5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de32515e-9a72-4e17-8fda-2dfb026a27f1")
+	)
+	(fp_line
+		(start -5 -4)
+		(end -4 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb436e41-220f-47ff-b7fc-849dbc7425d1")
+	)
+	(fp_line
+		(start -5 5)
+		(end 5 5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa2283bd-a830-4ca8-96c4-9bee2d3f521d")
+	)
+	(fp_line
+		(start 5 -5)
+		(end -4 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1a003c60-fced-44b6-b03a-2e6f32874b34")
+	)
+	(fp_line
+		(start 5 5)
+		(end 5 -5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8c57142-9f45-4796-92db-264c32761b49")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 -2.54)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0d2338f2-86fc-4768-a2c1-504709db63d3")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 2.54)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "66af211d-ec8c-448a-a334-539263fba833")
+	)
+	(pad "4" thru_hole circle
+		(at -3.81 2.54)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9fc640e5-40fc-42c2-a23d-a6adabafaabd")
+	)
+	(pad "8" thru_hole circle
+		(at 3.81 -2.54)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "09fb12fb-5dd9-4c4d-9cae-d1f68b8ed943")
+	)
+	(pad "C" thru_hole circle
+		(at -3.81 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "62a8d5d4-3421-43e8-b20c-311fb67d3255")
+	)
+	(pad "C" thru_hole circle
+		(at 3.81 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "62c38fdf-4d44-4f84-866c-192efced109e")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Switches/428527320916.step"
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

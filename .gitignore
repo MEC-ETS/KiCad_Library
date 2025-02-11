@@ -1,0 +1,47 @@
+# Created by https://www.gitignore.io/api/kicad
+
+### KiCad ###
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+
+# Old kikad version
+*.lib
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# End of https://www.gitignore.io/api/kicad
+
+# Mac moment
+.DS_Store
+.Trash
+
+### KiCad Patch ###
+rescue-backup/
+.sch
+*.tsv
+bom/
+*.lck

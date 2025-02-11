@@ -1,0 +1,113 @@
+(footprint "PA4304.393NLT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "PA4304.393NLT")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at -3.81 5.08 0)
+		(layer "F.SilkS")
+		(uuid "b42872a1-fefe-42ee-b049-3dce40cca4ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PA4304.393NLT"
+		(at -3.81 5.08 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2c666753-f854-4a2e-866a-67057d1f7227")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44d2f0b6-f276-49e4-ab42-d8a651ce8892")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6e443bc-8940-4611-aef9-d35640e6df48")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8155d07-c034-4953-a2e5-d5dd85d06381")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -6.25 -6.25)
+		(end 6.25 6.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0ec98845-5a09-416f-afb0-1c6800f3e546")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.81 5.08 0)
+		(layer "F.Fab")
+		(uuid "482a8a6e-f55b-48e3-8d41-6be4fb765fc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.9 0)
+		(size 2.2 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a80f9b87-de37-48e6-9ae4-4b2713dc1344")
+	)
+	(pad "2" smd rect
+		(at 4.9 0)
+		(size 2.2 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1fec8e80-9ae0-45ce-9336-973882009ef9")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductors/PA4304.STEP"
+		(offset
+			(xyz 0 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

@@ -1,0 +1,141 @@
+(footprint "OKI-78SR_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.032 -2.794 0)
+		(layer "F.SilkS")
+		(uuid "a70d5d8c-b62b-465d-ba6e-285d074584df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "OKI-78SR_Horizontal"
+		(at 0 7.112 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40994c84-4c56-438d-810f-eab10f385a4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d416f198-e91d-4fe3-bf8c-3bea1d107876")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00468eac-3374-466f-8c75-a4a38651d61c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0dca95e4-ef4f-4a51-a9d7-f7f31bd572e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.45 -1.524)
+		(end -5.45 15.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4cd570d-ac61-4c1d-9100-6e2e1d1b17ed")
+	)
+	(fp_line
+		(start -5.45 15.5)
+		(end 5.45 15.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb4e26db-f0a1-4a57-b196-66d3d83c23b2")
+	)
+	(fp_line
+		(start 5.45 -1.5)
+		(end -5.45 -1.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21ba8ed8-e3db-4ca7-8e3a-081a76223ced")
+	)
+	(fp_line
+		(start 5.45 15.5)
+		(end 5.45 -1.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd036b16-f360-4eee-b8fe-e195189e697f")
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6e8ed09a-6392-4aa3-a2fb-a6e43f362984")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "09e0fded-9313-4e00-b266-42411bb273fe")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b56e5510-816f-48c1-af09-68beac70bd1c")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/Assembly/mps_dcdc_oki_78sr_horiz_a.step"
+		(offset
+			(xyz -5.461 -0.5588 5.461)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
+		)
+	)
+)

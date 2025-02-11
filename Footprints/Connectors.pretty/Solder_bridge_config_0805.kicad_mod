@@ -1,0 +1,155 @@
+(footprint "Solder_bridge_config_0805"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.4892 0)
+		(layer "F.SilkS")
+		(uuid "eb93c831-1326-4c68-a31c-3dcbfab6d949")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Solder_bridge"
+		(at 0 2.33 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd398afb-764f-4d2e-8f1e-a14a3129e730")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.875 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "373c9af2-038f-4daf-b58d-6a16a0aea763")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.875 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3d3af89-fc5b-44f0-ab1e-218fa951f1d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.875 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba1fa97d-eae4-4d4d-a56d-24c1b6452fcf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.434 -1.0762)
+		(end 0.416 -1.0762)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62383941-790f-4af6-a17d-a901446244a1")
+	)
+	(fp_line
+		(start -0.434 1.1778)
+		(end 0.416 1.1778)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60364473-a01a-4c24-bc2b-0d31313c028e")
+	)
+	(pad "1" smd custom
+		(at -1.9 0)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1 -0.75) (xy 0.71 0) (xy 1 0.75) (xy 0.7 0.75) (xy 0.7 -0.75)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "128d9e45-3384-403c-b5dd-4b0a215974a9")
+	)
+	(pad "2" smd custom
+		(at 0 0)
+		(size 1.099999 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.549999 -0.75) (xy -0.849999 0) (xy -0.549999 0.75) (xy 0.850001 0.75) (xy 0.550001 0) (xy 0.850001 -0.75)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "0decac7c-72c5-40e3-ab60-556ffba36c83")
+	)
+	(pad "3" smd custom
+		(at 1.89 0)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.7 0.75) (xy -0.7 -0.75) (xy -1 0)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "de706a45-53ba-47b2-a0f3-ea160e3f6fcd")
+	)
+	(model "Resistors/R0805.wrl"
+		(offset
+			(xyz -0.000002 0 0.254)
+		)
+		(scale
+			(xyz 0.3937 0.3937 0.3937)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

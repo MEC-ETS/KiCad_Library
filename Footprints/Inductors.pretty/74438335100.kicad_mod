@@ -1,0 +1,219 @@
+(footprint "74438335100"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WE-MAPI  SMD Power Inductorr<br></b><br>Size:3015,SMT,2pins<br>LXWXH=3X3X1.5mm")
+	(property "Reference" "REF**"
+		(at 0 -2.835 0)
+		(layer "F.SilkS")
+		(uuid "fd0a31ff-2c76-4659-9203-f86efefdc462")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-MAPI_3015"
+		(at 0 2.865 0)
+		(layer "F.Fab")
+		(uuid "5e67ae95-def3-4b6e-8ad7-a30250b61754")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48e51c38-df07-4298-b466-d33059c0725e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2136e16-774b-4e68-893c-80164c445672")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34af998e-2b3b-44fa-b4b5-15fd3fdac6b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.1 -1.6)
+		(end 0.1 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b234e3a-7609-4cad-947a-f0b7cb546ad0")
+	)
+	(fp_line
+		(start -0.1 1.6)
+		(end 0.1 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "165ea52d-c7d9-4a02-a9ed-085f7937a025")
+	)
+	(fp_poly
+		(pts
+			(xy -1.9 -1.9) (xy 1.9 -1.9) (xy 1.9 1.9) (xy -1.9 1.9)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "7372a60c-c82e-457c-8225-71a0c83546c9")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "719248ae-e198-4683-8fd9-094baf528836")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71a64f24-4991-4a35-9394-1bd58f1dd075")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "889ab2ca-4c09-4cb1-a2af-01e02731167e")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "999d9d2a-6c42-4091-8a2d-e0aff13e0653")
+	)
+	(pad "1" smd rect
+		(at -1.05 0)
+		(size 1.3 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "9fdc2ff8-3b25-4313-908d-ab29056e332a")
+	)
+	(pad "2" smd rect
+		(at 1.05 0)
+		(size 1.3 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f2626996-8063-4ce3-ad46-906a2b29ed15")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "857852de-dcf9-435c-9afb-7de0b77100d8")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.4 -1.7) (xy 0.4 -1.7) (xy 0.4 1.7) (xy -0.4 1.7)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "880ddee4-4252-49a7-8b6b-e98921681e0a")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.4 -1.7) (xy 0.4 -1.7) (xy 0.4 1.7) (xy -0.4 1.7)
+			)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductors/74438335100.stp"
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
+)

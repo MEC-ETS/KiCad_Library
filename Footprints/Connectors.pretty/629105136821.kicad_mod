@@ -1,0 +1,318 @@
+(footprint "629105136821"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<B>WR-COM</B><BR> Micro USB 2.0 SMT Type B Horizontal 5 Contacts")
+	(property "Reference" "REF**"
+		(at 6.769 -3.0853 0)
+		(layer "F.SilkS")
+		(uuid "f8698f54-5567-4c35-be4e-0c06ba95a2a9")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "629105136821"
+		(at 9.6138 -1.671 0)
+		(layer "F.Fab")
+		(uuid "7fc8ef4e-67fd-4a10-a17e-ca2a26e82019")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "388e7eb9-1659-46f6-a322-5d52ad2328e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a35a881-1674-41e9-8570-1c6700147f15")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aee00b6c-5432-47a6-a1b8-14e5ee964edf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.8 -2.6)
+		(end -3.8 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "422b4db5-de9f-4a2e-a932-a1c5729ec63e")
+	)
+	(fp_line
+		(start -3.8 1.6)
+		(end -3.8 2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "187e5dc6-8e9a-444a-99bd-44db638ed701")
+	)
+	(fp_line
+		(start -3.8 2.6)
+		(end 3.8 2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7024c5b2-ee58-4160-9f88-d2b74d540b56")
+	)
+	(fp_line
+		(start -1.8 -2.6)
+		(end -3.8 -2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c18ef3f3-129e-442b-9d72-a179e0529955")
+	)
+	(fp_line
+		(start 1.8 -2.6)
+		(end 3.8 -2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0aeb4710-e75f-494d-a33e-ab5da8180fe4")
+	)
+	(fp_line
+		(start 3.8 -2.6)
+		(end 3.8 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1437c596-b1d8-4b83-a467-7e3497d76982")
+	)
+	(fp_line
+		(start 3.8 2.6)
+		(end 3.8 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "126d1650-0564-4957-b816-29bc64ed0ac4")
+	)
+	(fp_poly
+		(pts
+			(xy -1.7 -3.2) (xy 1.7 -3.2) (xy 1.7 -2.8) (xy 4 -2.8) (xy 4 -0.8) (xy 5.1 -0.8) (xy 5.1 1.5) (xy 4 1.5)
+			(xy 4 2.8) (xy -4 2.8) (xy -4 1.5) (xy -5.1 1.5) (xy -5.1 -0.8) (xy -4 -0.8) (xy -4 -2.8) (xy -1.7 -2.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "0fd0f0f2-139c-4028-b6f0-7a4ad9ef96d5")
+	)
+	(fp_line
+		(start -3.7 -2.5)
+		(end 3.7 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f5d50b8-6b77-4b63-b58a-f2e07f1f87ea")
+	)
+	(fp_line
+		(start -3.7 1.8)
+		(end -3.7 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba5091e9-d4d4-45a3-b849-47d468981b51")
+	)
+	(fp_line
+		(start -3.7 1.8)
+		(end 3.7 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9947f5da-cc11-4a07-b7a2-29a0d29d5eb8")
+	)
+	(fp_line
+		(start -3.7 2.5)
+		(end -3.7 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ff22590-a82d-48f5-9e5b-3b878df4e673")
+	)
+	(fp_line
+		(start 3.7 -2.5)
+		(end 3.7 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29bbc4c7-9336-4510-ad04-787d026efe4c")
+	)
+	(fp_line
+		(start 3.7 1.8)
+		(end 3.7 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7a5180c1-e7d7-42d8-986b-4819eb8213db")
+	)
+	(fp_line
+		(start 3.7 2.5)
+		(end -3.7 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2fc667df-6ac0-4bdd-8251-bce630cc4a30")
+	)
+	(fp_circle
+		(center -2.1 -3.05)
+		(end -2 -3.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6a2e3f2b-1e86-4436-a9d3-29b85f2ef01e")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.075 -2.1)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "cf5b3b46-85c2-4a71-a131-78d1317c1d14")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.075 -2.1)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a633f207-0527-416b-a387-4b5822b22a4c")
+	)
+	(pad "1" smd rect
+		(at -1.3 -2.325)
+		(size 0.4 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "600df06a-3b35-4841-82b3-fd69490628de")
+	)
+	(pad "2" smd rect
+		(at -0.65 -2.325)
+		(size 0.4 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "706598ff-bd23-4e3c-ab85-bcc53910dd1e")
+	)
+	(pad "3" smd rect
+		(at 0 -2.325)
+		(size 0.4 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "43cc13e4-4059-4c54-9a74-01c73df9a03e")
+	)
+	(pad "4" smd rect
+		(at 0.65 -2.325)
+		(size 0.4 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "3fcf9379-74b6-4f88-b41a-a04a1681c6f0")
+	)
+	(pad "5" smd rect
+		(at 1.3 -2.325)
+		(size 0.4 1.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "bd7d79ee-7c72-4824-9e12-fd4baf677fae")
+	)
+	(pad "S1" smd rect
+		(at -4 0.35)
+		(size 1.8 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "1969063c-c0d4-4d8d-9771-66a20fd1a678")
+	)
+	(pad "S2" smd rect
+		(at -1.2 0.35)
+		(size 1.9 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d2fc2212-7063-4da6-8428-7ff4c6627764")
+	)
+	(pad "S3" smd rect
+		(at 1.2 0.35)
+		(size 1.9 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d5cf9bbb-7996-4bda-ab28-1228a8376bf7")
+	)
+	(pad "S4" smd rect
+		(at 4 0.35)
+		(size 1.8 1.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "02bf1144-97d3-4187-bc40-ed976ce75442")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connectors/629105136821.step"
+		(offset
+			(xyz 0 -0.5 1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 0)
+		)
+	)
+)

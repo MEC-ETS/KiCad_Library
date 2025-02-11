@@ -1,0 +1,17 @@
+(module R0805 (layer F.Cu) (tedit 58FAD626)
+  (fp_text reference REF** (at 1.651 -2.54) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_text value R0805 (at 1.73 2.33) (layer F.Fab) hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_line (start 0.6 -1.127) (end 1.45 -1.127) (layer F.SilkS) (width 0.254))
+  (fp_line (start 0.6 1.127) (end 1.45 1.127) (layer F.SilkS) (width 0.254))
+  (pad 1 smd rect (at 0 0) (size 1.4 1.5) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2.05 0) (size 1.4 1.5) (layers F.Cu F.Paste F.Mask))
+  (model Resistors/R0805.wrl
+    (at (xyz 0.03937 0 0.01))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz -90 0 -90))
+  )
+)

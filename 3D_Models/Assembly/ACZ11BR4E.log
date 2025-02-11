@@ -1,0 +1,31 @@
+Conversion Solid Edge vers STEP
+Date: jeudi,novembre 10,2022 04:00
+Fichier en sortie: C:\Users\Simon Falardeau\Desktop\eclipse\KiCad_Library\3D_Model\Assembly\ACZ11BR4E.stp
+Auteur: Unknown
+Organisation: Unknown
+Système source: Solid Edge
+
+Matériel:
+Processeur: AMD Ryzen 5 5600H with Radeon Graphics         
+Système d'exploitation: Windows 10
+Mémoire installée: 15.34 GB
+
+Informations sur le logiciel
+Version de Parasolid: 32.1.222
+Version de PSBodyShop: 32.1.94
+Version de l'adaptateur Step: 5.0.107
+Version de Solid Edge: 221.00.03.003 x64
+
+Options d'exportation STEP
+Format exportation : AP214
+Exporter feuilles de construction: Désactivé
+Importer solides de construction: Désactivé
+Exporter filaires de construction: Désactivé
+Exporter uniquement les pièces affichées: Désactivé
+Exporter unités: Millimeters
+Exporter noms de composant de pièce en tant qu'Unicode : Désactivé
+Exporter PMI: Désactivé.
+
+Etape 1 sur 1 - conversion de Parasolid en types de données externes
+Fin de  l'opération de conversion
+Temps nécessaire à la conversion:00 : 00 : 00

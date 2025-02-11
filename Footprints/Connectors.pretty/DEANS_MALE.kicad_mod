@@ -1,0 +1,155 @@
+(footprint "DEANS_MALE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 9 0)
+		(layer "F.SilkS")
+		(uuid "844d6368-aa4d-485e-8dda-b082be168aa8")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+			)
+		)
+	)
+	(property "Value" "DEANS_MALE"
+		(at 0 -9.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ed3a505b-5647-46d1-aa83-f911b9a66007")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -14.425 -0.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49afd214-3d8c-4af3-9f98-481b3b60d67f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -14.425 -0.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "098a1644-2935-4b2a-9a80-975b7859e8cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -14.425 -0.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20bcab32-a93e-44ce-8dca-4d8ebd4d0faf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5 -7.5)
+		(end 4.5 -7.5)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e55f5caf-26b1-4088-aa22-f5ce0a4d29b7")
+	)
+	(fp_line
+		(start -4.5 6.5)
+		(end -4.5 -7.5)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b81b7de5-2979-4c21-bcef-7585a5633284")
+	)
+	(fp_line
+		(start -4.5 6.5)
+		(end 4.5 6.5)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "780073de-2fb3-48fb-a9aa-7a98c2bbe244")
+	)
+	(fp_line
+		(start 4.5 6.5)
+		(end 4.5 -7.5)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6330f1b2-5ce2-4560-bf68-c0c17362f3b7")
+	)
+	(fp_text user "-"
+		(at -6 2 0)
+		(layer "F.SilkS")
+		(uuid "15ec7c39-8b12-48f5-84bc-59a59d2a30cf")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -6 -4 0)
+		(layer "F.SilkS")
+		(uuid "444e75ce-c301-4b69-9c20-60a04007504d")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.3048)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0.5 2 180)
+		(size 2.8 6)
+		(drill oval 1.8 5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0c656958-f63d-4e31-b88e-51d65d572260")
+	)
+	(pad "2" thru_hole oval
+		(at 0 -3.5 270)
+		(size 2.8 6)
+		(drill oval 1.8 5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f605e4ec-50c9-4835-b5a4-8aec6bd2f696")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connectors/T-Plug_male_Deans.step"
+		(offset
+			(xyz 0 0.5 8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

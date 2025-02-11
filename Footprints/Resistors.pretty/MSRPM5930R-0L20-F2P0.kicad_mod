@@ -1,0 +1,128 @@
+(footprint "MSRPM5930R-0L20-F2P0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0e5c499f-5a6f-42e0-8016-f49c1bbcd0e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+			)
+		)
+	)
+	(property "Value" "MSRPM5930R-0L20-F2P0"
+		(at 0 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7027928b-874c-43f4-8346-b5451f2e850a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a78afe3-bb40-4ccf-8a38-524ac133aa9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da9775ec-d272-4828-96e5-d08ca386bef7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e6a38dd-9e9a-4e8c-ad6b-a740759069b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -4)
+		(end 2 -4)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0bcfbc67-63ea-478f-8703-8e35d9a74762")
+	)
+	(fp_line
+		(start -2 4)
+		(end 2 4)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0e646213-e624-4e5b-8c01-11f70c7a2c96")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3a0b3940-07ee-4880-8213-8112e3d1a895")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.5 0 270)
+		(size 8.95 5.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c27aad7c-5360-4b2a-b421-d0113e45839e")
+	)
+	(pad "2" smd rect
+		(at 5.5 0 270)
+		(size 8.95 5.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "a29a4a79-ef20-4b5e-a489-f7d956cb9439")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Resistors_SMD.3dshapes/MSRPM5930R-0L20-F2P0.stp"
+		(offset
+			(xyz 0 3.9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

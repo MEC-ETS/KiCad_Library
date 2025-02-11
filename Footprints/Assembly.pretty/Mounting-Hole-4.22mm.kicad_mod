@@ -1,0 +1,83 @@
+(footprint "Mounting-Hole-4.22mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 4 0)
+		(layer "F.SilkS")
+		(uuid "c618956e-0213-4605-904c-c4f2221e6c73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mounting-Hole-4.22mm"
+		(at 0 4.75 0)
+		(layer "F.Fab")
+		(uuid "fdd10dd7-989e-405d-9478-aae11d6462f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f145c1d-e6c9-42f7-b3b6-cad1d60dc8d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bff979d-e117-470f-86e5-a8549a02949d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d78b8cd-b085-4f9a-9093-91765c61c6b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 5 5)
+		(drill 4.25)
+		(layers "*.Mask")
+		(uuid "2fd96dd2-fa09-41df-afbd-28a1f15079e9")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connectors/KF2-M3-ET.stp"
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
+)

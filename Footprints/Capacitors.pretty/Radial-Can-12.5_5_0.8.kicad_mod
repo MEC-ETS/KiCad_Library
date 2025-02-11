@@ -1,0 +1,124 @@
+(footprint "Radial-Can-12.5_5_0.8"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 -11 0)
+		(layer "F.SilkS")
+		(uuid "400ed1f3-9db3-4df3-a0de-bf30eb61b30e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Radial-Can-12.5_5_0.8"
+		(at 0 11 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd52f7d9-fcf7-42d9-b0d8-e477943d6809")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7d72909-5709-410e-a56d-56a3d5e5adb4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fbfaa75-8d08-4f61-bfca-a726745bb63b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f3a1eca-9330-44bc-b686-8b0c6b1d66c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.25 4.5)
+		(end -5.25 4.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10359653-1e38-4570-ab90-f7786662da59")
+	)
+	(fp_line
+		(start -5.75 5)
+		(end -5.75 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed52ba21-e185-4d0c-bae1-d0b86b17c230")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6.25 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "11ee198b-a3c6-4756-ad47-5404cb044075")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.6764 1.6764)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b1de213e-63a6-4cd5-9568-b1b46972f2a6")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.6764 1.6764)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7834d1ee-8de5-4719-9036-da3eb892b14f")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Capacitors/CapAluRadial_D125H400P50.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

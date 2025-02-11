@@ -1,0 +1,18 @@
+(footprint "Keystone_5001" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "TP202" (at 0.508 -2.794) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.2032)))
+    (tstamp d7dfb440-4707-49b7-aac3-a04734bd25b5)
+  )
+  (fp_text value "Test_Point_THM" (at 0 3.556) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ffc584a6-e558-4fd7-b239-cc3a11438841)
+  )
+  (pad "1" thru_hole rect (at 0 0) (size 4 2) (drill 1.1 (offset 0.7 0)) (layers "*.Cu" "*.Mask") (tstamp d8efe116-80bc-4c83-b3b8-137f021f58d5))
+  (model "${KICAD7_3DMODEL_DIR}/Connectors/Test_Point_Keystone_5001_BLACK.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

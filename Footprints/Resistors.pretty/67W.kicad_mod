@@ -1,0 +1,155 @@
+(footprint "67W"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.ttelectronics.com/sites/default/files/download-files/Datasheet_Trimmer_67_0.pdf")
+	(tags "67W")
+	(property "Reference" "VR701"
+		(at 6.1594 0.1554 -90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "749ea32f-b6a7-4c5c-8a3c-4c49fdb95516")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "67WR500KLF"
+		(at 0 4.064 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "377c47e7-f47c-4703-a24e-f3afd6d8b364")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81d2e163-0be8-45fc-9828-638276145993")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83667913-de91-4391-a737-db5cb5e1326d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb9b2973-f2d7-4e69-8345-e95d28692832")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.08 -2.54)
+		(end 5.08 -2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff22ec37-f092-4209-8396-0048b293b103")
+	)
+	(fp_line
+		(start -5.08 2.54)
+		(end -5.08 -2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bedfac8-022b-4c44-af7c-b1cafd653c28")
+	)
+	(fp_line
+		(start 5.08 -2.54)
+		(end 5.08 2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0cde1f41-7457-4e18-92ca-112a828e21dd")
+	)
+	(fp_line
+		(start 5.08 2.54)
+		(end -5.08 2.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "292b8968-524f-46db-884c-28c60b3bbb8f")
+	)
+	(fp_circle
+		(center -4.572 -3.556)
+		(end -4.272 -3.556)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "9989d723-6a3b-436a-b85d-c49ba7eb89fc")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.27 1.27)
+		(drill 0.7112)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5b6355ba-5a46-4d2d-8734-ecfbbbadf407")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.27 1.27)
+		(drill 0.7112)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "24a299bf-b6cd-446e-a74c-9120de1b40d2")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.27 1.27)
+		(drill 0.7112)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e068bf1b-8cc6-42ab-a7b0-f940b0d0f99d")
+	)
+	(model "${KISYS3DMOD}/Resistors/67W.step"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

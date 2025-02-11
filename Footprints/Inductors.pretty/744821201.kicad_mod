@@ -1,0 +1,124 @@
+(footprint "744821201"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.135 0)
+		(layer "F.SilkS")
+		(uuid "6028b147-9ff1-4c3a-9f47-9f58bb4c6493")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "744821201"
+		(at 4.62 6.365 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27a494b0-c170-43ef-8e90-27122b06bb9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7de6b7f2-c741-47e6-9919-7408fc05032f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2e8263a-ab43-43ff-96b2-f9dfc2033d36")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbc2b8a5-4fdc-4d2a-809b-80d338a1fdaa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7.5 -3.75)
+		(end 7.5 3.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "36859883-ce97-4fc5-a6ac-07863ff6e6fb")
+	)
+	(pad "1" thru_hole circle
+		(at -5 2.25)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3335915b-99ac-4a9f-9b86-f9dd0a4e4a3b")
+	)
+	(pad "2" thru_hole circle
+		(at 5 2.25)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0b138bf7-a424-4061-8fa6-4e08ee0001ed")
+	)
+	(pad "3" thru_hole circle
+		(at 5 -2.25)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c585e3d3-ce28-4caa-b68e-928faab9156c")
+	)
+	(pad "4" thru_hole circle
+		(at -5 -2.25)
+		(size 1.7 1.7)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "adf266f6-024d-4355-b5d2-d97aa6eea843")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductors/744821201.stp"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

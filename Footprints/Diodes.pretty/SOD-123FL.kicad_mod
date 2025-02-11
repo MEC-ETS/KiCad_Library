@@ -1,0 +1,120 @@
+(footprint "SOD-123FL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.01 -3.92 0)
+		(layer "F.SilkS")
+		(uuid "d2547c6e-c70c-4351-82f5-af914c401013")
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOD-123FL"
+		(at 0.05 3.43 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08d55003-d5eb-4f25-aff0-b526293a1a75")
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1bb5c54-28b8-4915-a843-73d7c338c60d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89c24cd6-3f1b-4647-8616-ace5f1cdb695")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bfe4f5e-d5c0-41e7-ac17-8d0baf75b1de")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.45 1.1)
+		(end 1.45 1.1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42430f41-78ac-4271-baa8-17be5a341270")
+	)
+	(fp_line
+		(start 1.45 -1.1)
+		(end -1.45 -1.1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed58e812-3910-4d36-bcb4-8d805ac7fd2e")
+	)
+	(fp_circle
+		(center -2.37 -1.2)
+		(end -2.34 -1.2)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9e5d4a8d-a308-418b-aaa2-c8ce25ef326d")
+	)
+	(pad "1" smd rect
+		(at -1.85 0)
+		(size 2 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dc0e9bed-2738-41b9-a7fb-89535878f448")
+	)
+	(pad "2" smd rect
+		(at 1.85 0)
+		(size 2 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "03492e79-59cf-4739-b363-3a949e51cb55")
+	)
+	(model "Diodes/SOD-123FL.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.3937 0.3937 0.3937)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

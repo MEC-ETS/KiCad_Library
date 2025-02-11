@@ -1,0 +1,85 @@
+(footprint "Test_point_Round"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "TP202"
+		(at 0.508 -2.794 0)
+		(layer "F.SilkS")
+		(uuid "d7dfb440-4707-49b7-aac3-a04734bd25b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "Test_Point_Round"
+		(at 0 3.556 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ffc584a6-e558-4fd7-b239-cc3a11438841")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df69daac-82a2-4254-aaa7-b5c1dd94f5f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa902791-33a7-4a3b-b21b-feeb00b68106")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea6e415f-32b0-4459-b94c-91f41e0ef0f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr smd)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 1.75 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin -0.2)
+		(teardrops
+			(best_length_ratio 0.25)
+			(max_length 1)
+			(best_width_ratio 0.75)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "99991f31-5429-4003-98b4-81e3d4f20339")
+	)
+)

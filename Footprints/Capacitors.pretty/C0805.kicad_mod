@@ -1,0 +1,109 @@
+(footprint "C0805"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.79 -2.05 0)
+		(layer "F.SilkS")
+		(uuid "6195bcb6-24e6-4f3b-b1c6-64aa8e5ee12c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2032)
+			)
+		)
+	)
+	(property "Value" "C0805"
+		(at 1.73 2.33 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "430ee9d4-8881-447a-9858-ab2060b0aec4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "131a0004-0ecf-41e9-8da6-465cd19af909")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "402532fd-2edf-4728-b35f-e522dc68843c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83401789-3601-4502-a30a-f6e35af22ee4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.6 -1)
+		(end 1.45 -1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb3c8f5d-0afa-4f15-8600-23fd63bb1680")
+	)
+	(fp_line
+		(start 0.6 1)
+		(end 1.45 1)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f185ebe7-153f-4c75-95bf-ec1b6e2e1376")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "216013f5-c9c1-4dc8-b56a-8617e5ee35f6")
+	)
+	(pad "2" smd rect
+		(at 2.05 0)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8afc26ac-7445-485e-9850-c13ff5ac36f3")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitors/C0805.step"
+		(offset
+			(xyz 1 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

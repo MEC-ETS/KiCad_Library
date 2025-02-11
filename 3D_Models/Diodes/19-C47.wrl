@@ -1,0 +1,101 @@
+#VRML V2.0 utf8
+#Fait a la main pour le fun
+
+# La base blanche de la led
+Shape {
+    appearance Appearance {
+        material Material {
+            diffuseColor 0.5 0.5 0.5
+            emissiveColor 0.5 0.5 0.5
+            transparency 0
+        }
+    }
+    geometry Box {
+        size 1.8 1.8 0.28
+    }
+}
+
+# L'epoxy transparente au dessus de la base blanche
+Transform {
+    translation 0 0 0.325
+    children Shape {
+        appearance Appearance {
+            material Material {
+                diffuseColor 0.5 0.5 0.3
+                emissiveColor 0.1 0.09 0.05
+                transparency 0.6
+            }
+        }
+        geometry Box {
+            size 1.8 1.8 0.37
+        }
+    }
+}
+
+# La grosse chip noire
+Transform {
+    translation -0.2 0 0.215
+    children Shape {
+        appearance Appearance {
+            material Material {
+                diffuseColor 0.1 0.1 0
+                emissiveColor 0.1 0.1 0
+                transparency 0
+            }
+        }
+        geometry Box {
+            size 0.7 0.7 0.15
+        }
+    }
+}
+
+# La p'tite chip noire num1 (bleu)
+Transform {
+    translation 0.58 0.6 0.215
+    children Shape {
+        appearance Appearance {
+            material Material {
+                diffuseColor 0.5 0.5 1
+                emissiveColor 0.2 0.2 0.8
+                transparency 0
+            }
+        }
+        geometry Box {
+            size 0.3 0.3 0.15
+        }
+    }
+}
+
+# La p'tite chip noire num2 (vert)
+Transform {
+    translation 0.6 0 0.215
+    children Shape {
+        appearance Appearance {
+            material Material {
+                diffuseColor 0.5 1 0.5
+                emissiveColor 0.2 0.8 0.2
+                transparency 0
+            }
+        }
+        geometry Box {
+            size 0.3 0.3 0.15
+        }
+    }
+}
+
+# La p'tite chip noire num3 (rouge)
+Transform {
+    translation 0.58 -0.6 0.215
+    children Shape {
+        appearance Appearance {
+            material Material {
+                diffuseColor 1 0.5 0.5
+                emissiveColor 0.8 0.2 0.2
+                transparency 0
+            }
+        }
+        geometry Box {
+            size 0.3 0.3 0.15
+        }
+    }
+}

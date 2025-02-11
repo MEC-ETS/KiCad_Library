@@ -1,0 +1,133 @@
+(footprint "40x10mm_FAN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 16 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d6fe65e4-0093-4819-a4ed-58b7bbc66da7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "40x10mm_FAN"
+		(at 0 17.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5254c517-dff9-44d1-8bf8-213f0fac8dff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ea64ea2-8887-4f29-8942-c0b587350859")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24311374-235e-4f4c-a21b-547626a5afa8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff8d873a-b55a-476d-9167-916138669f31")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -20 4)
+		(end 20 14)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "956498a5-be44-4e31-9337-d20bda6a36f2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 19 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2e293c74-d502-471a-882f-0dddc311f980")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -16.004 18.25)
+		(size 5 5)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88f0ad3b-f3b3-4695-9915-ee7b88327418")
+	)
+	(pad "1" thru_hole circle
+		(at -16 0)
+		(size 5 5)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7192ec3-d3ce-4507-b04c-a359779f43ee")
+	)
+	(pad "1" thru_hole circle
+		(at 16 18.25)
+		(size 5 5)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c2f2c8f3-72fc-408f-a165-ec5d4334cd73")
+	)
+	(pad "1" thru_hole circle
+		(at 16.004 0)
+		(size 5 5)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1065035f-4400-4734-bd7d-3a68da6763b9")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/Fans.3dshapes/Noctua_40x10mm.step"
+		(offset
+			(xyz 20 -14 0)
+		)
+		(scale
+			(xyz 0.435 0.4 0.435)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

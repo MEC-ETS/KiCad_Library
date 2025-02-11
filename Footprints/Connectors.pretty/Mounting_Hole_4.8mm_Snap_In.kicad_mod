@@ -1,0 +1,85 @@
+(footprint "Mounting_Hole_4.8mm_Snap_In"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.11 -3.34 0)
+		(layer "F.SilkS")
+		(uuid "1d7c2be8-9726-470e-bde1-a0d9b7822998")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mounting_Hole_4.8mm_Snap_In"
+		(at 0.5 -5.12 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "385a347d-dc0a-481e-becc-3ca2a040924e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c2a228a-57c7-48d3-aded-1e4f6c8f343b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mcmaster.com/1837N12/"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "583fa6cc-aad2-4882-aaef-ff0e947208d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Stackable Snap-in Supports 3/16\" Long, for Number 4 Screw Size"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "554db23c-7c8a-4389-82d9-4e8a281c186b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0.01)
+		(size 6 6)
+		(drill 4.8514)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c52640d4-3f1f-484d-9ee8-84419f823d57")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connectors/1837N12_Stackable Snap-in Supports.stp"
+		(offset
+			(xyz 0 0 2.45)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

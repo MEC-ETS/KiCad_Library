@@ -1,0 +1,260 @@
+(footprint "MCB90N12ATP"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MCB90N12A-TP")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at 2.412 0 0)
+		(layer "F.SilkS")
+		(uuid "40418c48-e9b0-43c1-b79c-97710c5dfed2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MCB90N12ATP"
+		(at 2.412 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "08fa2c6e-76f2-4d13-af24-de589ae22658")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cbe2d04-0b30-4ad3-90e7-ad821c044aa3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bf0f58e-a29f-4384-bcdf-02ede2fc6fc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ead39f11-27e5-49fd-a1c4-2bec8b9431ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 3.14 5.05)
+		(end 4.45 5.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ebe239d-e265-4248-b887-e6c81e7f5154")
+	)
+	(fp_line
+		(start 4.45 -5.05)
+		(end 3.14 -5.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7928f269-7c65-484e-9cec-cd5661b06ed7")
+	)
+	(fp_line
+		(start 4.45 5.05)
+		(end 4.45 -5.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "078f3ff0-fff9-4180-9808-8e0f938fc1f6")
+	)
+	(fp_line
+		(start 10.94 2.54)
+		(end 10.94 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1023f38-5b0b-4326-bf4f-cfa8d4a2d386")
+	)
+	(fp_line
+		(start 11.04 2.54)
+		(end 11.04 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ace71463-2b17-4348-9bc9-713dd1295412")
+	)
+	(fp_arc
+		(start 10.94 2.54)
+		(mid 10.99 2.49)
+		(end 11.04 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3686adec-d593-45d0-ab89-94766b52c403")
+	)
+	(fp_arc
+		(start 11.04 2.54)
+		(mid 10.99 2.59)
+		(end 10.94 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2df281ba-99e1-48bb-a0cf-34fed4191a8c")
+	)
+	(fp_line
+		(start -7.215 -6.33)
+		(end 12.04 -6.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63ba2353-6bdc-4c53-b288-059d14f6bb22")
+	)
+	(fp_line
+		(start -7.215 6.33)
+		(end -7.215 -6.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed76dc69-ce66-4bb6-8ac9-0b3e4d1e0fbc")
+	)
+	(fp_line
+		(start 12.04 -6.33)
+		(end 12.04 6.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc08fdf5-cee8-43bd-b2f5-13e703fa5a19")
+	)
+	(fp_line
+		(start 12.04 6.33)
+		(end -7.215 6.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5fb6ee04-8672-4088-bc41-667ccb794149")
+	)
+	(fp_line
+		(start -4.45 -5.05)
+		(end 4.45 -5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3f85a991-1b48-45b4-bed1-dcc9240e5285")
+	)
+	(fp_line
+		(start -4.45 5.05)
+		(end -4.45 -5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81b39162-fef0-4d7b-9dea-597df59e5df7")
+	)
+	(fp_line
+		(start 4.45 -5.05)
+		(end 4.45 5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "62c326ff-eab0-4946-b06f-2d76044c58be")
+	)
+	(fp_line
+		(start 4.45 5.05)
+		(end -4.45 5.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec87a887-d056-4a66-9ff4-dea1aaefeb20")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.412 0 0)
+		(layer "F.Fab")
+		(uuid "886b116f-de24-4fc5-9f88-f2da3cc465e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 8.235 2.54 90)
+		(size 1.78 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b828fa25-b77f-4892-ae30-bbc6d5a2e8dc")
+	)
+	(pad "2" smd rect
+		(at -2.025 0)
+		(size 8.38 10.66)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1f4db8fd-028d-4178-8cff-831206cce1c3")
+	)
+	(pad "3" smd rect
+		(at 8.235 -2.54 90)
+		(size 1.78 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8dcd510c-552e-46b4-8f0d-c06cd2af27cc")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/IC/MCB90N12A-TP.step"
+		(offset
+			(xyz 0 10 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

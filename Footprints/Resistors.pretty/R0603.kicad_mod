@@ -1,0 +1,109 @@
+(footprint "R0603"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.9 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "46736aa8-3178-42ef-ad6d-78da9617fb70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "R0603"
+		(at 0.9 1.85 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36955ed3-3dd5-45f1-bb83-1d768bafa0f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8d5c229-c765-42c3-872f-2c184333bc8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e257d72e-3263-495a-8248-d30c1ad2deb4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7b395a5-a3c4-443c-b145-c2f726ecbb70")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.2 -0.7)
+		(end 1.2 -0.7)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3a8d464-bce0-4893-8a88-0b45812d0f95")
+	)
+	(fp_line
+		(start 0.2 0.7)
+		(end 1.2 0.7)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "593fdd58-1ea6-4ebd-aca1-9d3223d3a477")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b6efd369-f36c-4efa-b63e-ca0a7f2f8c71")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3ed27b40-0bc8-4ad9-8880-ba3cca04418a")
+	)
+	(model "${KISYS3DMOD}/Resistors/R0603.step"
+		(offset
+			(xyz 0.75 0 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

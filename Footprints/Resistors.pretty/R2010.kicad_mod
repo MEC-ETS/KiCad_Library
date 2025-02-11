@@ -1,0 +1,17 @@
+(module R2010 (layer F.Cu) (tedit 58E1A96D)
+  (fp_text reference REF** (at 2.53 -3.29) (layer F.SilkS)
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_text value R2010 (at 2.48 3.34) (layer F.Fab) hide
+    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  )
+  (fp_line (start 1.2 -1.5) (end 3.5 -1.5) (layer F.SilkS) (width 0.254))
+  (fp_line (start 1.2 1.5) (end 3.5 1.5) (layer F.SilkS) (width 0.254))
+  (pad 1 smd rect (at 0 0) (size 1.6 3) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 4.7 0) (size 1.6 3) (layers F.Cu F.Paste F.Mask))
+  (model Resistors/R2010.wrl
+    (at (xyz 0.092 0 0.01))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz -90 0 -90))
+  )
+)

@@ -1,0 +1,18 @@
+(module SOD-128 (layer F.Cu) (tedit 567DB37B)
+  (fp_text reference REF** (at 0.03 -4.75) (layer F.SilkS)
+    (effects (font (size 2.54 2.54) (thickness 0.254)))
+  )
+  (fp_text value SOD-128 (at -0.03 4.69) (layer F.Fab) hide
+    (effects (font (size 2.54 2.54) (thickness 0.254)))
+  )
+  (fp_circle (center -2.6 -2) (end -2.43 -2.12) (layer F.SilkS) (width 0.508))
+  (fp_line (start -2 1.45) (end 2 1.45) (layer F.SilkS) (width 0.127))
+  (fp_line (start 2 -1.45) (end -2 -1.45) (layer F.SilkS) (width 0.127))
+  (pad 1 smd rect (at -2.6 0) (size 2 2.4) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2.6 0) (size 2 2.4) (layers F.Cu F.Paste F.Mask))
+  (model Diodes/SOD-128.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz -90 0 180))
+  )
+)

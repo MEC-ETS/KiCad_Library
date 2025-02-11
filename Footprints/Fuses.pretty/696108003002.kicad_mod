@@ -1,0 +1,207 @@
+(footprint "696108003002"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WR-FSH Fuseholder THT Blocks PCB Clip Cover<br><br></b>Mates with 696122003001")
+	(property "Reference" "REF**"
+		(at 0 -6.135 0)
+		(layer "F.SilkS")
+		(uuid "6028b147-9ff1-4c3a-9f47-9f58bb4c6493")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "696108003002"
+		(at 4.62 6.365 0)
+		(layer "F.Fab")
+		(uuid "27a494b0-c170-43ef-8e90-27122b06bb9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7de6b7f2-c741-47e6-9919-7408fc05032f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2e8263a-ab43-43ff-96b2-f9dfc2033d36")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbc2b8a5-4fdc-4d2a-809b-80d338a1fdaa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.3 -4.8)
+		(end -12.3 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "551bc50c-1c17-4f2e-9c26-339e7a41b9fd")
+	)
+	(fp_line
+		(start -12.3 -4.8)
+		(end 12.3 -4.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f6e37c2d-c13d-4c04-8a44-e928bf1f13b6")
+	)
+	(fp_line
+		(start -12.3 4.8)
+		(end -12.3 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2382bf26-e91c-4062-872b-b698fb0fec6c")
+	)
+	(fp_line
+		(start 12.3 -4.8)
+		(end 12.3 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f81ab21-de4c-4403-a095-876b5f773383")
+	)
+	(fp_line
+		(start 12.3 4.8)
+		(end -12.3 4.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31c513e5-bdc0-4a28-a507-a01e11717d79")
+	)
+	(fp_line
+		(start 12.3 4.8)
+		(end 12.3 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58963634-62a9-471d-b1f4-997b44de3159")
+	)
+	(fp_poly
+		(pts
+			(xy -12.5 -5) (xy 12.5 -5) (xy 12.5 5) (xy -12.5 5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9b6926c3-f5d7-4bbb-9296-41b0fc373423")
+	)
+	(fp_line
+		(start -12.2 -4.7)
+		(end 12.2 -4.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6700e41c-cb18-4e07-bd30-d3d130e8d809")
+	)
+	(fp_line
+		(start -12.2 4.7)
+		(end -12.2 -4.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee7f0818-83bb-481e-a6c0-90a54ebb33e6")
+	)
+	(fp_line
+		(start 12.2 -4.7)
+		(end 12.2 4.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16d412fe-f69e-4a83-9985-bbcfe8eb2b32")
+	)
+	(fp_line
+		(start 12.2 4.7)
+		(end -12.2 4.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0dcfb773-40dc-4556-8be9-42018721b4a5")
+	)
+	(pad "1" thru_hole circle
+		(at -11.3 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "adf266f6-024d-4355-b5d2-d97aa6eea843")
+	)
+	(pad "2" thru_hole circle
+		(at 11.3 0)
+		(size 2.25 2.25)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0b138bf7-a424-4061-8fa6-4e08ee0001ed")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuses/696108003002.stp"
+		(offset
+			(xyz 0 -4.7 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

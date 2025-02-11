@@ -1,0 +1,190 @@
+(footprint "IND_LQH32PN100MNCL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.395 -2.635 0)
+		(layer "F.SilkS")
+		(uuid "1458d436-2e8f-408e-8f78-08d0009a54e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_LQH32PN100MNCL"
+		(at 8.65 2.635 0)
+		(layer "F.Fab")
+		(uuid "b9f7365d-ff71-45aa-9fb6-a394c5a9bc6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be06401a-f454-4e3f-94c4-7653abbfe4d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91180ddd-8e39-4601-a6ee-edb5ed4ad078")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cc65bdd-d1ad-4a40-964a-bda7d56b30d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -1.32)
+		(end 1.6 -1.32)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e12645b7-5ab5-4f4a-95de-6321297696f3")
+	)
+	(fp_line
+		(start -1.6 1.32)
+		(end 1.6 1.32)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6efaf0e7-e220-474b-b7a5-33000574c043")
+	)
+	(fp_line
+		(start -2.15 -1.5)
+		(end 2.15 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "205cd30f-00c7-4558-bc30-05157845830d")
+	)
+	(fp_line
+		(start -2.15 1.5)
+		(end -2.15 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ba3fa2a-5ee2-4eb5-8ab5-5a499bfe4b2e")
+	)
+	(fp_line
+		(start 2.15 -1.5)
+		(end 2.15 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "618d4db1-51ac-4349-9e70-be18a07c6d62")
+	)
+	(fp_line
+		(start 2.15 1.5)
+		(end -2.15 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "742f2fcc-bead-431f-b218-bb3ef949a8e0")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08935879-18f5-42c0-bcd8-f300a538edc0")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60e2e1c2-6260-419b-962f-50b2aa01c23d")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cca96a5-936e-4706-b52a-e057db0e82da")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f63582fd-f030-4da3-8984-f112830e548e")
+	)
+	(pad "1" smd rect
+		(at -1.275 0)
+		(size 1.25 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "2f826014-ad3a-46db-a960-4543b82b3212")
+	)
+	(pad "2" smd rect
+		(at 1.275 0)
+		(size 1.25 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "e594761b-0791-48b1-b6df-0154b19234f2")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductors/LQH32PN100MNCL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
