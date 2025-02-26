@@ -27,7 +27,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "NUCLEO-F446RE:MODULE_NUCLEO-F446RE"
+		(property "Footprint" "Assembly:MODULE_NUCLEO-F446RE"
 			(at 0 0 0)
 			(effects
 				(font
