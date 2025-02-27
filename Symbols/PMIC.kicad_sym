@@ -7492,7 +7492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "H_Bridge:DDV0044E-IPC_A"
+		(property "Footprint" "IC:DDV0044E-IPC_A"
 			(at 0 0 0)
 			(effects
 				(font
