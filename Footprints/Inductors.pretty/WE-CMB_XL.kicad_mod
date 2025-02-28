@@ -1,0 +1,298 @@
+(footprint "WE-CMB_XL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>WE-CMB Common Mode Power Line Choke</b><br><br>Size : XL, THT, 4pins<br>L X W X H=30mm X 21mm X 35mm")
+	(property "Reference" "REF**"
+		(at 0.306 -12.389 0)
+		(layer "F.SilkS")
+		(uuid "b041f8e1-2f3b-41fd-b519-063d98dabccf")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-CMB_XL"
+		(at 2.967 12.411 0)
+		(layer "F.Fab")
+		(uuid "333e6c29-15e0-471f-ac32-26d8ac50d5be")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7cbce87-da21-4d41-9ad5-faca3116e30d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c85cdbb0-205f-4a34-8fa0-0e4666f87b89")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -15.1 -10.6)
+		(end 15.1 -10.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48dd1089-ee28-4d70-b4f6-5d82c575a0a0")
+	)
+	(fp_line
+		(start -15.1 -1.85)
+		(end -15.1 -10.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ddaa1b1-2051-49b1-9ada-e458145a055e")
+	)
+	(fp_line
+		(start -15.1 -1.85)
+		(end -12.85 -1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85f96bfe-fa43-409a-b565-0f3bc130fa9e")
+	)
+	(fp_line
+		(start -15.1 10.6)
+		(end -15.1 1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e987e59f-af5e-4dd6-90bf-ded0ab4c77f3")
+	)
+	(fp_line
+		(start -12.85 -1.85)
+		(end -12.85 1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bb099e5-3a75-48fa-8a67-b834524b05eb")
+	)
+	(fp_line
+		(start -12.85 1.85)
+		(end -15.1 1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5085371b-3db4-4662-83b6-5c0699168ccc")
+	)
+	(fp_line
+		(start 15.1 -10.6)
+		(end 15.1 10.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f3af13e-86e3-446f-8674-8b8d03287232")
+	)
+	(fp_line
+		(start 15.1 10.6)
+		(end -15.1 10.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8bb2a9f-88b0-4805-b5d2-6322cc7ce361")
+	)
+	(fp_circle
+		(center -16.5 9)
+		(end -16.1 9)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8e2ec1e5-252a-47e8-abf1-72fa8fdb22b3")
+	)
+	(fp_poly
+		(pts
+			(xy -15.3 -10.8) (xy 15.3 -10.8) (xy 15.3 10.8) (xy -15.3 10.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "d1ee9c95-e856-4b97-a826-3609c4f30156")
+	)
+	(fp_line
+		(start -15 -10.5)
+		(end -15 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01d00054-7504-4b27-954d-665102a958fe")
+	)
+	(fp_line
+		(start -15 -1.95)
+		(end -12.75 -1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4051d32-fe0b-41c5-b6ab-438d117a9d5a")
+	)
+	(fp_line
+		(start -15 1.95)
+		(end -15 10.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2d528be-8142-4c01-847a-0867b8ec3153")
+	)
+	(fp_line
+		(start -15 10.5)
+		(end 15 10.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07c61e02-26d7-4705-8c34-bf7d0c9bf801")
+	)
+	(fp_line
+		(start -12.75 -1.95)
+		(end -12.75 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2671858c-5071-41e2-9138-50f92ec0308c")
+	)
+	(fp_line
+		(start -12.75 1.95)
+		(end -15 1.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c78c6f00-3e7f-499f-a7c0-edd1850217ab")
+	)
+	(fp_line
+		(start 15 -10.5)
+		(end -15 -10.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f43a954-6ecf-48a1-8296-737c04e98fcd")
+	)
+	(fp_line
+		(start 15 10.5)
+		(end 15 -10.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b4c4be3-b83f-4786-8f76-ed3f473c5cbd")
+	)
+	(pad "1" thru_hole circle
+		(at -12.5 7.5)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3cf94189-875b-41fb-a0f8-aed5b64bf34f")
+	)
+	(pad "2" thru_hole circle
+		(at 12.5 7.5)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d2e5b9fb-5f13-4447-88a1-555c77161b1d")
+	)
+	(pad "3" thru_hole circle
+		(at 12.5 -7.5)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2d1e96ba-4d06-4f92-aae1-ceb12a7012ac")
+	)
+	(pad "4" thru_hole circle
+		(at -12.5 -7.5)
+		(size 1.95 1.95)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ee44298b-c307-4097-8b42-9403d2827f5b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductors/WE-CMB_XL.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Inductors/WE-CMB_XL.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

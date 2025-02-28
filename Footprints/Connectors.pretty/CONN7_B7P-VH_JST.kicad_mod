@@ -275,4 +275,15 @@
 		(uuid "98339f46-008d-4fbe-927a-3c593cff78f9")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connectors/B7P-VH.step"
+		(offset
+			(xyz 11.99 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

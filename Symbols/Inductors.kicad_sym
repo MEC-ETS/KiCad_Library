@@ -1,7 +1,623 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
+	(symbol "12LRS226C"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 8.89 -6.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "12LRS226C:22mH"
+			(at 8.89 -9.525 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Inductors:IND_MURATA_1200LRS_MUR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "12LRS226C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22 mH Shielded Wirewound Inductor 73 mA 70Ohm Max Radial, Vertical Cylinder, 4 Leads"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number " "12LRS226C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Power Solutions Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number " "  811-2084-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "12LRS226C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "IND_MURATA_1200LRS_MUR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "12LRS226C_1_1"
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -5.08) (xy 1.27 -5.08)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -7.62) (xy 1.27 -7.62)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -10.16) (xy 1.27 -10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -12.7) (xy 1.27 -12.7)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 -2.54)
+				(mid 2.5344 -3.81)
+				(end 1.27 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 -5.08)
+				(mid 2.5344 -6.35)
+				(end 1.27 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 -7.62)
+				(mid 2.5344 -8.89)
+				(end 1.27 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 -10.16)
+				(mid 2.5344 -11.43)
+				(end 1.27 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.35 -5.08)
+				(mid 5.0855 -3.81)
+				(end 6.35 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.35 -7.62)
+				(mid 5.0855 -6.35)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.35 -10.16)
+				(mid 5.0855 -8.89)
+				(end 6.35 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.35 -12.7)
+				(mid 5.0855 -11.43)
+				(end 6.35 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 6.35 -2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 6.35 -5.08)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -7.62) (xy 6.35 -7.62)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -10.16) (xy 6.35 -10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -12.7) (xy 6.35 -12.7)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 0 270)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "12LRS226C_1_2"
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -5.08) (xy 1.27 -5.08)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -7.62) (xy 1.27 -7.62)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -10.16) (xy 1.27 -10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -12.7) (xy 1.27 -12.7)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 -2.54)
+				(mid 2.5344 -3.81)
+				(end 1.27 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 -5.08)
+				(mid 2.5344 -6.35)
+				(end 1.27 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 -7.62)
+				(mid 2.5344 -8.89)
+				(end 1.27 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 -10.16)
+				(mid 2.5344 -11.43)
+				(end 1.27 -12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.35 -5.08)
+				(mid 5.0855 -3.81)
+				(end 6.35 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.35 -7.62)
+				(mid 5.0855 -6.35)
+				(end 6.35 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.35 -10.16)
+				(mid 5.0855 -8.89)
+				(end 6.35 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 6.35 -12.7)
+				(mid 5.0855 -11.43)
+				(end 6.35 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 6.35 -2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 6.35 -5.08)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -7.62) (xy 6.35 -7.62)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -10.16) (xy 6.35 -10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -12.7) (xy 6.35 -12.7)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 0 270)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "744043151"
 		(pin_names
 			(offset 0.762)
@@ -143,21 +759,9 @@
 		)
 		(symbol "744043151_0_1"
 			(arc
-				(start 5.08 0)
-				(mid 6.35 -1.3218)
-				(end 7.62 0)
-				(stroke
-					(width 0.1524)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start 7.62 0)
-				(mid 8.89 -1.3218)
-				(end 10.16 0)
+				(mid 6.35 -1.3218)
+				(end 5.08 0)
 				(stroke
 					(width 0.1524)
 					(type solid)
@@ -168,8 +772,8 @@
 			)
 			(arc
 				(start 10.16 0)
-				(mid 11.43 -1.3218)
-				(end 12.7 0)
+				(mid 8.89 -1.3218)
+				(end 7.62 0)
 				(stroke
 					(width 0.1524)
 					(type solid)
@@ -180,8 +784,20 @@
 			)
 			(arc
 				(start 12.7 0)
+				(mid 11.43 -1.3218)
+				(end 10.16 0)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 15.24 0)
 				(mid 13.97 -1.3218)
-				(end 15.24 0)
+				(end 12.7 0)
 				(stroke
 					(width 0.1524)
 					(type solid)
@@ -191,11 +807,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "744052471"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -315,20 +936,8 @@
 		)
 		(symbol "744052471_0_1"
 			(arc
-				(start -1.016 0)
+				(start -3.048 0)
 				(mid -2.032 1.0116)
-				(end -3.048 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -339,9 +948,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -389,6 +1010,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "744231091"
 		(pin_names
@@ -498,68 +1120,10 @@
 			)
 		)
 		(symbol "744231091_0_1"
-			(circle
-				(center -5.715 -0.635)
-				(radius 0.127)
-				(stroke
-					(width 0.381)
-					(type default)
+			(polyline
+				(pts
+					(xy -8.89 2.54) (xy -5.08 2.54)
 				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -5.715 0.635)
-				(radius 0.127)
-				(stroke
-					(width 0.381)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.08 1.905)
-				(mid -3.81 0.6406)
-				(end -2.54 1.905)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 -1.905)
-				(mid -3.81 -0.6405)
-				(end -5.08 -1.905)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 1.905)
-				(mid -1.27 0.6406)
-				(end 0 1.905)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.905)
-				(mid -1.27 -0.6405)
-				(end -2.54 -1.905)
 				(stroke
 					(width 0.127)
 					(type default)
@@ -580,12 +1144,22 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -8.89 2.54) (xy -5.08 2.54)
-				)
+			(circle
+				(center -5.715 0.635)
+				(radius 0.127)
 				(stroke
-					(width 0.127)
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.715 -0.635)
+				(radius 0.127)
+				(stroke
+					(width 0.381)
 					(type default)
 				)
 				(fill
@@ -594,7 +1168,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -2.54) (xy -5.08 -1.905)
+					(xy -5.08 2.54) (xy -5.08 1.905)
 				)
 				(stroke
 					(width 0.127)
@@ -618,8 +1192,104 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 2.54) (xy -5.08 1.905)
+					(xy -5.08 -2.54) (xy -5.08 -1.905)
 				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 1.905)
+				(mid -3.81 0.6406)
+				(end -5.08 1.905)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.08 -1.905)
+				(mid -3.81 -0.6405)
+				(end -2.54 -1.905)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.905)
+				(mid -1.27 0.6406)
+				(end -2.54 1.905)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 -1.905)
+				(mid -1.27 -0.6405)
+				(end 0 -1.905)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 1.905)
+				(mid 1.27 0.6406)
+				(end 0 1.905)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.905)
+				(mid 1.27 -0.6405)
+				(end 2.54 -1.905)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 1.905)
+				(mid 3.81 0.6406)
+				(end 2.54 1.905)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 -1.905)
+				(mid 3.81 -0.6405)
+				(end 5.08 -1.905)
 				(stroke
 					(width 0.127)
 					(type default)
@@ -630,7 +1300,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 5.08 -1.905)
+					(xy 5.08 2.54) (xy 5.08 1.905)
 				)
 				(stroke
 					(width 0.127)
@@ -654,19 +1324,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 2.54) (xy 5.08 1.905)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -2.54) (xy 5.08 -2.54)
+					(xy 5.08 -2.54) (xy 5.08 -1.905)
 				)
 				(stroke
 					(width 0.127)
@@ -688,46 +1346,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 0 1.905)
-				(mid 1.27 0.6406)
-				(end 2.54 1.905)
-				(stroke
-					(width 0.127)
-					(type default)
+			(polyline
+				(pts
+					(xy 8.89 -2.54) (xy 5.08 -2.54)
 				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.54 -1.905)
-				(mid 1.27 -0.6405)
-				(end 0 -1.905)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.54 1.905)
-				(mid 3.81 0.6406)
-				(end 5.08 1.905)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 5.08 -1.905)
-				(mid 3.81 -0.6405)
-				(end 2.54 -1.905)
 				(stroke
 					(width 0.127)
 					(type default)
@@ -822,11 +1444,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "744311220"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -946,20 +1573,8 @@
 		)
 		(symbol "744311220_0_1"
 			(arc
-				(start -1.016 0)
+				(start -3.048 0)
 				(mid -2.032 1.0116)
-				(end -3.048 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -970,9 +1585,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -1020,6 +1647,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "74438335100"
 		(pin_names
@@ -1111,30 +1739,6 @@
 			)
 		)
 		(symbol "74438335100_0_0"
-			(arc
-				(start -2.54 0)
-				(mid -3.81 1.2645)
-				(end -5.08 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid -1.27 1.2645)
-				(end -2.54 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -5.08 2.54) (xy 5.08 2.54)
@@ -1148,8 +1752,20 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 1.27 1.2645)
+				(start -5.08 0)
+				(mid -3.81 1.2645)
+				(end -2.54 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 0)
+				(mid -1.27 1.2645)
 				(end 0 0)
 				(stroke
 					(width 0.254)
@@ -1160,9 +1776,21 @@
 				)
 			)
 			(arc
-				(start 5.08 0)
-				(mid 3.81 1.2645)
+				(start 0 0)
+				(mid 1.27 1.2645)
 				(end 2.54 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 3.81 1.2645)
+				(end 5.08 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1208,11 +1836,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "7447715330"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1332,20 +1965,8 @@
 		)
 		(symbol "7447715330_0_1"
 			(arc
-				(start -1.016 0)
+				(start -3.048 0)
 				(mid -2.032 1.0116)
-				(end -3.048 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -1356,9 +1977,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -1406,11 +2039,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "744772330"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1521,20 +2159,8 @@
 		)
 		(symbol "744772330_0_1"
 			(arc
-				(start -1.016 0)
+				(start -3.048 0)
 				(mid -2.032 1.0116)
-				(end -3.048 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -1545,9 +2171,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -1595,6 +2233,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "744821201"
 		(pin_names
@@ -1704,68 +2343,10 @@
 			)
 		)
 		(symbol "744821201_0_1"
-			(circle
-				(center -5.715 -0.635)
-				(radius 0.127)
-				(stroke
-					(width 0.381)
-					(type default)
+			(polyline
+				(pts
+					(xy -8.89 2.54) (xy -5.08 2.54)
 				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -5.715 0.635)
-				(radius 0.127)
-				(stroke
-					(width 0.381)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.08 1.905)
-				(mid -3.81 0.6406)
-				(end -2.54 1.905)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 -1.905)
-				(mid -3.81 -0.6405)
-				(end -5.08 -1.905)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.54 1.905)
-				(mid -1.27 0.6406)
-				(end 0 1.905)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.905)
-				(mid -1.27 -0.6405)
-				(end -2.54 -1.905)
 				(stroke
 					(width 0.127)
 					(type default)
@@ -1786,12 +2367,22 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -8.89 2.54) (xy -5.08 2.54)
-				)
+			(circle
+				(center -5.715 0.635)
+				(radius 0.127)
 				(stroke
-					(width 0.127)
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.715 -0.635)
+				(radius 0.127)
+				(stroke
+					(width 0.381)
 					(type default)
 				)
 				(fill
@@ -1800,7 +2391,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -2.54) (xy -5.08 -1.905)
+					(xy -5.08 2.54) (xy -5.08 1.905)
 				)
 				(stroke
 					(width 0.127)
@@ -1824,8 +2415,104 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 2.54) (xy -5.08 1.905)
+					(xy -5.08 -2.54) (xy -5.08 -1.905)
 				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 1.905)
+				(mid -3.81 0.6406)
+				(end -5.08 1.905)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.08 -1.905)
+				(mid -3.81 -0.6405)
+				(end -2.54 -1.905)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.905)
+				(mid -1.27 0.6406)
+				(end -2.54 1.905)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 -1.905)
+				(mid -1.27 -0.6405)
+				(end 0 -1.905)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 1.905)
+				(mid 1.27 0.6406)
+				(end 0 1.905)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.905)
+				(mid 1.27 -0.6405)
+				(end 2.54 -1.905)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 1.905)
+				(mid 3.81 0.6406)
+				(end 2.54 1.905)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 -1.905)
+				(mid 3.81 -0.6405)
+				(end 5.08 -1.905)
 				(stroke
 					(width 0.127)
 					(type default)
@@ -1836,7 +2523,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 5.08 -1.905)
+					(xy 5.08 2.54) (xy 5.08 1.905)
 				)
 				(stroke
 					(width 0.127)
@@ -1860,19 +2547,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 2.54) (xy 5.08 1.905)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -2.54) (xy 5.08 -2.54)
+					(xy 5.08 -2.54) (xy 5.08 -1.905)
 				)
 				(stroke
 					(width 0.127)
@@ -1894,46 +2569,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 0 1.905)
-				(mid 1.27 0.6406)
-				(end 2.54 1.905)
-				(stroke
-					(width 0.127)
-					(type default)
+			(polyline
+				(pts
+					(xy 8.89 -2.54) (xy 5.08 -2.54)
 				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.54 -1.905)
-				(mid 1.27 -0.6405)
-				(end 0 -1.905)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.54 1.905)
-				(mid 3.81 0.6406)
-				(end 5.08 1.905)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 5.08 -1.905)
-				(mid 3.81 -0.6405)
-				(end 2.54 -1.905)
 				(stroke
 					(width 0.127)
 					(type default)
@@ -1992,24 +2631,6 @@
 				)
 			)
 			(pin unspecified line
-				(at 11.43 -2.54 180)
-				(length 2.54)
-				(name "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 11.43 2.54 180)
 				(length 2.54)
 				(name "4"
@@ -2027,12 +2648,35 @@
 					)
 				)
 			)
+			(pin unspecified line
+				(at 11.43 -2.54 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "7847121020"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2152,20 +2796,8 @@
 		)
 		(symbol "7847121020_0_1"
 			(arc
-				(start -1.016 0)
+				(start -3.048 0)
 				(mid -2.032 1.0116)
-				(end -3.048 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -2176,9 +2808,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -2226,6 +2870,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ATCA-08-471M-H"
 		(pin_names
@@ -2327,30 +2972,6 @@
 			)
 		)
 		(symbol "ATCA-08-471M-H_0_0"
-			(arc
-				(start -2.54 0)
-				(mid -3.81 1.2645)
-				(end -5.08 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid -1.27 1.2645)
-				(end -2.54 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -5.08 0) (xy -7.62 0)
@@ -2363,10 +2984,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 5.08 0) (xy 7.62 0)
-				)
+			(arc
+				(start -5.08 0)
+				(mid -3.81 1.2645)
+				(end -2.54 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2376,8 +2997,8 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 1.27 1.2645)
+				(start -2.54 0)
+				(mid -1.27 1.2645)
 				(end 0 0)
 				(stroke
 					(width 0.254)
@@ -2388,9 +3009,33 @@
 				)
 			)
 			(arc
-				(start 5.08 0)
-				(mid 3.81 1.2645)
+				(start 0 0)
+				(mid 1.27 1.2645)
 				(end 2.54 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 3.81 1.2645)
+				(end 5.08 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 7.62 0)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2436,11 +3081,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "B65882B0012T001"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2535,20 +3185,8 @@
 		)
 		(symbol "B65882B0012T001_0_1"
 			(arc
-				(start -1.016 0)
+				(start -3.048 0)
 				(mid -2.032 1.0116)
-				(end -3.048 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -2559,9 +3197,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -2609,11 +3259,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Inductor"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2733,20 +3388,8 @@
 		)
 		(symbol "Inductor_0_1"
 			(arc
-				(start -1.016 0)
+				(start -3.048 0)
 				(mid -2.032 1.0116)
-				(end -3.048 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -2757,9 +3400,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -2807,11 +3462,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Inductor_Shielded"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2930,10 +3590,10 @@
 			)
 		)
 		(symbol "Inductor_Shielded_0_1"
-			(arc
-				(start -1.016 0)
-				(mid -2.032 1.0116)
-				(end -3.048 0)
+			(polyline
+				(pts
+					(xy -3.048 2.032) (xy 3.048 2.032)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -2954,21 +3614,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.048 2.032) (xy 3.048 2.032)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
+				(start -3.048 0)
+				(mid -2.032 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -2979,9 +3627,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -3029,6 +3689,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LBC3225T100KR"
 		(pin_names
@@ -3074,7 +3735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FIXED IND 10UH 540MA 133MOHM "
+		(property "Description" "FIXED IND 10UH 540MA 133MOHM"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3149,12 +3810,36 @@
 					(type none)
 				)
 			)
+			(arc
+				(start 2.54 1.27)
+				(mid 3.81 2.5344)
+				(end 5.08 1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 5.08 0) (xy 5.08 1.27)
 				)
 				(stroke
 					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 1.27)
+				(mid 6.35 2.5344)
+				(end 7.62 1.27)
+				(stroke
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -3173,12 +3858,36 @@
 					(type none)
 				)
 			)
+			(arc
+				(start 7.62 1.27)
+				(mid 8.89 2.5344)
+				(end 10.16 1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 10.16 0) (xy 10.16 1.27)
 				)
 				(stroke
 					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 10.16 1.27)
+				(mid 11.43 2.5344)
+				(end 12.7 1.27)
+				(stroke
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -3195,72 +3904,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(arc
-				(start 5.08 1.27)
-				(mid 3.81 2.5344)
-				(end 2.54 1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 7.62 1.27)
-				(mid 6.35 2.5344)
-				(end 5.08 1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 10.16 1.27)
-				(mid 8.89 2.5344)
-				(end 7.62 1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 12.7 1.27)
-				(mid 11.43 2.5344)
-				(end 10.16 1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin unspecified line
@@ -3281,12 +3924,30 @@
 					)
 				)
 			)
+			(pin unspecified line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "LBC3225T100KR_1_2"
 			(arc
-				(start -1.27 5.08)
-				(mid -2.5344 3.81)
-				(end -1.27 2.54)
+				(start -1.27 10.16)
+				(mid -2.5344 11.43)
+				(end -1.27 12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3297,8 +3958,8 @@
 			)
 			(arc
 				(start -1.27 7.62)
-				(mid -2.5344 6.35)
-				(end -1.27 5.08)
+				(mid -2.5344 8.89)
+				(end -1.27 10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3308,8 +3969,8 @@
 				)
 			)
 			(arc
-				(start -1.27 10.16)
-				(mid -2.5344 8.89)
+				(start -1.27 5.08)
+				(mid -2.5344 6.35)
 				(end -1.27 7.62)
 				(stroke
 					(width 0.254)
@@ -3320,9 +3981,9 @@
 				)
 			)
 			(arc
-				(start -1.27 12.7)
-				(mid -2.5344 11.43)
-				(end -1.27 10.16)
+				(start -1.27 2.54)
+				(mid -2.5344 3.81)
+				(end -1.27 5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3333,31 +3994,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy -1.27 2.54)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 5.08) (xy -1.27 5.08)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 7.62) (xy -1.27 7.62)
+					(xy 0 12.7) (xy -1.27 12.7)
 				)
 				(stroke
 					(width 0.2032)
@@ -3381,7 +4018,31 @@
 			)
 			(polyline
 				(pts
-					(xy 0 12.7) (xy -1.27 12.7)
+					(xy 0 7.62) (xy -1.27 7.62)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08) (xy -1.27 5.08)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 2.54)
 				)
 				(stroke
 					(width 0.2032)
@@ -3428,11 +4089,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LBC3225T101KR"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3552,20 +4218,8 @@
 		)
 		(symbol "LBC3225T101KR_0_1"
 			(arc
-				(start -1.016 0)
+				(start -3.048 0)
 				(mid -2.032 1.0116)
-				(end -3.048 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -3576,9 +4230,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -3626,11 +4292,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LBC3225T470KR"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3750,20 +4421,8 @@
 		)
 		(symbol "LBC3225T470KR_0_1"
 			(arc
-				(start -1.016 0)
+				(start -3.048 0)
 				(mid -2.032 1.0116)
-				(end -3.048 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -3774,9 +4433,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -3824,6 +4495,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LQH32PN100MNCL"
 		(pin_names
@@ -3916,30 +4588,6 @@
 			)
 		)
 		(symbol "LQH32PN100MNCL_0_0"
-			(arc
-				(start -2.54 0)
-				(mid -3.81 1.2645)
-				(end -5.08 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid -1.27 1.2645)
-				(end -2.54 0)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -5.08 0) (xy -7.62 0)
@@ -3952,10 +4600,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 5.08 0) (xy 7.62 0)
-				)
+			(arc
+				(start -5.08 0)
+				(mid -3.81 1.2645)
+				(end -2.54 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3965,8 +4613,8 @@
 				)
 			)
 			(arc
-				(start 2.54 0)
-				(mid 1.27 1.2645)
+				(start -2.54 0)
+				(mid -1.27 1.2645)
 				(end 0 0)
 				(stroke
 					(width 0.254)
@@ -3977,9 +4625,33 @@
 				)
 			)
 			(arc
-				(start 5.08 0)
-				(mid 3.81 1.2645)
+				(start 0 0)
+				(mid 1.27 1.2645)
 				(end 2.54 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 3.81 1.2645)
+				(end 5.08 0)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 7.62 0)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4027,11 +4699,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LQM31PN4R7M00L"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4150,10 +4827,10 @@
 			)
 		)
 		(symbol "LQM31PN4R7M00L_0_1"
-			(arc
-				(start -1.016 0)
-				(mid -2.032 1.0116)
-				(end -3.048 0)
+			(polyline
+				(pts
+					(xy -3.048 2.032) (xy 3.048 2.032)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -4174,21 +4851,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.048 2.032) (xy 3.048 2.032)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
+				(start -3.048 0)
+				(mid -2.032 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -4199,9 +4864,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -4249,11 +4926,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MLZ2012N101LT000"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4372,10 +5054,10 @@
 			)
 		)
 		(symbol "MLZ2012N101LT000_0_1"
-			(arc
-				(start -1.016 0)
-				(mid -2.032 1.0116)
-				(end -3.048 0)
+			(polyline
+				(pts
+					(xy -3.048 2.032) (xy 3.048 2.032)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -4396,21 +5078,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.048 2.032) (xy 3.048 2.032)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
+				(start -3.048 0)
+				(mid -2.032 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -4421,9 +5091,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -4471,11 +5153,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PA4304.393NLT"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4588,20 +5275,8 @@
 		)
 		(symbol "PA4304.393NLT_0_1"
 			(arc
-				(start -1.016 0)
+				(start -3.048 0)
 				(mid -2.032 1.0116)
-				(end -3.048 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -4612,9 +5287,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -4662,11 +5349,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RLB0608-331KL"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4786,20 +5478,8 @@
 		)
 		(symbol "RLB0608-331KL_0_1"
 			(arc
-				(start -1.016 0)
+				(start -3.048 0)
 				(mid -2.032 1.0116)
-				(end -3.048 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -4810,9 +5490,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -4860,11 +5552,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RLB0608-471KL"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4984,20 +5681,8 @@
 		)
 		(symbol "RLB0608-471KL_0_1"
 			(arc
-				(start -1.016 0)
+				(start -3.048 0)
 				(mid -2.032 1.0116)
-				(end -3.048 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -5008,9 +5693,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -5058,11 +5755,416 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "SRR1206-122KL"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 6.985 5.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SRR1206-122KL:1.2mH"
+			(at 6.985 -2.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Inductors:IND_BOURNS_SRR1240"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRR1206.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.2 mH Shielded Drum Core, Wirewound Inductor 250 mA 2.65Ohm Max Nonstandard"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number " "SRR1206-122KL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number " "118-SRR1206-122KLCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SRR1206-122KL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "IND_BOURNS_SRR1240"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SRR1206-122KL_1_1"
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 1.27)
+				(mid 3.81 2.5344)
+				(end 5.08 1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 5.08 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 1.27)
+				(mid 6.35 2.5344)
+				(end 7.62 1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 7.62 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 7.62 1.27)
+				(mid 8.89 2.5344)
+				(end 10.16 1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 10.16 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 10.16 1.27)
+				(mid 11.43 2.5344)
+				(end 12.7 1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 0) (xy 12.7 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SRR1206-122KL_1_2"
+			(arc
+				(start -1.27 10.16)
+				(mid -2.5344 11.43)
+				(end -1.27 12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 7.62)
+				(mid -2.5344 8.89)
+				(end -1.27 10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 5.08)
+				(mid -2.5344 6.35)
+				(end -1.27 7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 2.54)
+				(mid -2.5344 3.81)
+				(end -1.27 5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 12.7) (xy -1.27 12.7)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 10.16) (xy -1.27 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 7.62) (xy -1.27 7.62)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08) (xy -1.27 5.08)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 15.24 270)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 90)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "SRR1280-3R3Y"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5174,10 +6276,10 @@
 			)
 		)
 		(symbol "SRR1280-3R3Y_0_1"
-			(arc
-				(start -1.016 0)
-				(mid -2.032 1.0116)
-				(end -3.048 0)
+			(polyline
+				(pts
+					(xy -3.048 2.032) (xy 3.048 2.032)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -5198,21 +6300,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.048 2.032) (xy 3.048 2.032)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
+				(start -3.048 0)
+				(mid -2.032 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -5223,9 +6313,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -5273,11 +6375,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SRR6038-3R3YCT"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5387,10 +6494,10 @@
 			)
 		)
 		(symbol "SRR6038-3R3YCT_0_1"
-			(arc
-				(start -1.016 0)
-				(mid -2.032 1.0116)
-				(end -3.048 0)
+			(polyline
+				(pts
+					(xy -3.048 2.032) (xy 3.048 2.032)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -5411,21 +6518,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.048 2.032) (xy 3.048 2.032)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(arc
-				(start 1.016 0)
-				(mid 0 1.0116)
+				(start -3.048 0)
+				(mid -2.032 1.0116)
 				(end -1.016 0)
 				(stroke
 					(width 0)
@@ -5436,9 +6531,21 @@
 				)
 			)
 			(arc
-				(start 3.048 0)
-				(mid 2.032 1.0116)
+				(start -1.016 0)
+				(mid 0 1.0116)
 				(end 1.016 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.016 0)
+				(mid 2.032 1.0116)
+				(end 3.048 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -5486,5 +6593,301 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "WE-CMB_XL"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 3.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "WE-CMB_XL:20mH"
+			(at -4.44 -5.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Inductors:WE-CMB_XL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744825320.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20 mH @ 10 kHz 2 Line Common Mode Choke Through Hole 3A DCR 160mOhm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number " "744825320"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number " "732-1458-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "WE-CMB_XL_0_0"
+			(circle
+				(center -5.588 1.778)
+				(radius 0.127)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -5.588 -1.778)
+				(radius 0.127)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 0) (xy 4.445 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 2.54)
+				(mid -3.81 1.2755)
+				(end -5.08 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.08 -2.54)
+				(mid -3.81 -1.2755)
+				(end -2.54 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 2.54)
+				(mid -1.27 1.2755)
+				(end -2.54 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 -2.54)
+				(mid -1.27 -1.2755)
+				(end 0 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 2.54)
+				(mid 1.27 1.2755)
+				(end 0 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -2.54)
+				(mid 1.27 -1.2755)
+				(end 2.54 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 2.54)
+				(mid 3.81 1.2755)
+				(end 2.54 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 -2.54)
+				(mid 3.81 -1.2755)
+				(end 5.08 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 )

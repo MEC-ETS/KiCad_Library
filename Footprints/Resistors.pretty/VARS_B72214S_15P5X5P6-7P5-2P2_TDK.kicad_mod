@@ -1,0 +1,231 @@
+(footprint "VARS_B72214S_15P5X5P6-7P5-2P2_TDK"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "B72214S0351K101 ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "044ddf98-b991-454f-8fc7-0fdc4d539f85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VARS_B72214S_15P5X5P6-7P5-2P2_TDK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "25926986-0afe-4486-9072-b10d3be9b705")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98de8c3a-666f-468c-ab44-c1a01a68b656")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd2a48fb-7836-40bd-9b57-a4d803ece9f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.953 -2.921)
+		(end 4.953 -2.921)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eeadb0d1-f152-4192-b3a9-c6a0d4864326")
+	)
+	(fp_line
+		(start -4.953 2.921)
+		(end 4.953 2.921)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98d38a11-e2f5-46f8-a4cd-93175b8244bb")
+	)
+	(fp_arc
+		(start -4.953 2.921)
+		(mid -7.874 0)
+		(end -4.953 -2.921)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e880745-388b-4e47-9453-8a5aee38cb1a")
+	)
+	(fp_arc
+		(start 4.953 -2.921)
+		(mid 7.018459 -2.065459)
+		(end 7.874 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b5dc901-57af-465c-877a-9d5f537c9a61")
+	)
+	(fp_arc
+		(start 7.874 0)
+		(mid 7.018459 2.065459)
+		(end 4.953 2.921)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da5d18ba-2372-4fc7-9348-c1a8b0723603")
+	)
+	(fp_line
+		(start -8.001 -3.048)
+		(end 8.001 -3.048)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c916c71-746b-4045-a27f-ec07c77334a6")
+	)
+	(fp_line
+		(start -8.001 3.048)
+		(end -8.001 -3.048)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb6a88bd-93a9-4ba7-a681-7cc93c7e3977")
+	)
+	(fp_line
+		(start 8.001 -3.048)
+		(end 8.001 3.048)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8cda6a0c-0b34-430f-8aa5-b2141d8914a3")
+	)
+	(fp_line
+		(start 8.001 3.048)
+		(end -8.001 3.048)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "25d45b22-722c-4c91-8b0c-c9dbd8dccd24")
+	)
+	(fp_line
+		(start -4.953 -2.794)
+		(end 4.953 -2.794)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ceb80b8f-60f8-4b2d-8529-40819d923761")
+	)
+	(fp_line
+		(start -4.953 2.794)
+		(end 4.953 2.794)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08f090a6-2523-403d-883a-d34a3b741a9c")
+	)
+	(fp_arc
+		(start -4.953 2.794)
+		(mid -7.747 0)
+		(end -4.953 -2.794)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b292810-4497-4545-ab77-322153927ec5")
+	)
+	(fp_arc
+		(start 4.953 -2.794)
+		(mid 7.747 0)
+		(end 4.953 2.794)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "486cf238-19f6-4274-ad00-27eb3f2f8783")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "04cd84f9-a65e-4331-96e4-5271652739d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.75 -1.1)
+		(size 1.6002 1.6002)
+		(drill 1.0922)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e569220-7288-4336-8f42-1fec88a35c06")
+	)
+	(pad "2" thru_hole circle
+		(at 3.75 1.1)
+		(size 1.6002 1.6002)
+		(drill 1.0922)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a2082a67-ebdf-4fc2-8d12-6b7c529c8a90")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Resistors/VARS_B72214S_15P5X5P6-7P5-2P2_TDK.step"
+		(offset
+			(xyz -3.5 1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 15)
+		)
+	)
+)

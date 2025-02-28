@@ -1,11 +1,15 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "047706.3MRET1P"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -135,9 +139,9 @@
 		)
 		(symbol "047706.3MRET1P_0_1"
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -149,9 +153,9 @@
 		)
 		(symbol "047706.3MRET1P_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -197,11 +201,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "0697H0800-01"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -342,9 +351,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -367,9 +376,9 @@
 		)
 		(symbol "0697H0800-01_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -415,11 +424,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "0697H9120-01"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -560,9 +574,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -585,9 +599,9 @@
 		)
 		(symbol "0697H9120-01_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -633,11 +647,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "0698Q2000-02"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -769,9 +788,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -794,9 +813,9 @@
 		)
 		(symbol "0698Q2000-02_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -842,11 +861,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "0698Q6300-01"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -987,9 +1011,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -1012,9 +1036,9 @@
 		)
 		(symbol "0698Q6300-01_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -1060,11 +1084,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "1812L075_33DR"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1187,9 +1216,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -1212,9 +1241,9 @@
 		)
 		(symbol "1812L075_33DR_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -1260,11 +1289,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "39505000440"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1414,9 +1448,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -1439,9 +1473,9 @@
 		)
 		(symbol "39505000440_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -1487,11 +1521,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "39511000440"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1632,9 +1671,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -1657,9 +1696,9 @@
 		)
 		(symbol "39511000440_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -1705,6 +1744,225 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "4628"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "4628:3.15A"
+			(at -2.54 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Fuses:FUSE_4628"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/bel-fuse-inc/5HT-3-15-R/1008984"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.15 A 250 V AC DC Fuse Cartridge, Ceramic Requires Holder 5mm x 20mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "4628"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "11.99mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone/Bel Fuse Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number " "5HT 3.15-R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number " "5923-5HT3.15-R-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "4628_0_0"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -3.81 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -3.81 0)
+				(mid -1.905 1.8967)
+				(end 0 0)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.81 0)
+				(mid 1.905 -1.8967)
+				(end 0 0)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "696108003002"
 		(pin_names
@@ -1845,9 +2103,9 @@
 		)
 		(symbol "696108003002_1_1"
 			(arc
-				(start 0 -0.0066)
-				(mid 1.524 -1.524)
-				(end 3.048 -0.0066)
+				(start -3.048 0.0066)
+				(mid -1.524 1.524)
+				(end 0 0.0066)
 				(stroke
 					(width 0)
 					(type default)
@@ -1857,9 +2115,9 @@
 				)
 			)
 			(arc
-				(start 0 0.0066)
-				(mid -1.524 1.524)
-				(end -3.048 0.0066)
+				(start 3.048 -0.0066)
+				(mid 1.524 -1.524)
+				(end 0 -0.0066)
 				(stroke
 					(width 0)
 					(type default)
@@ -1869,11 +2127,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "7100.1016.13"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1987,9 +2250,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -2012,9 +2275,9 @@
 		)
 		(symbol "7100.1016.13_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -2060,11 +2323,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "80812000440"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2205,9 +2473,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -2230,9 +2498,9 @@
 		)
 		(symbol "80812000440_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -2278,11 +2546,246 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "B88069X4180B502"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "RV"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "B88069X4180B502"
+			(at 5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Fuses:RESAD254W50L470D690"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/100/ds/ES300XP-X4180B502.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gas Discharge Tube 300 V 2500A (2.5kA) ±15% 2 Pole Through Hole"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "7/29/2022"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "EPCOS - TDK Electronics"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.9 mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number " "B88069X4180B502"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number " "495-76149-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "B88069X4180B502_0_0"
+			(polyline
+				(pts
+					(xy -0.635 -2.54) (xy 0.635 -2.54) (xy 0 -1.27) (xy -0.635 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 3.81)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 2.54) (xy -0.635 2.54) (xy 0 1.27) (xy 0.635 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.27 -1.27)
+				(radius 0.1588)
+				(stroke
+					(width 0.3175)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "BK_PCC-3-R"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2423,9 +2926,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -2448,9 +2951,9 @@
 		)
 		(symbol "BK_PCC-3-R_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -2496,11 +2999,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BK_PCC-4-R"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2641,9 +3149,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -2666,9 +3174,9 @@
 		)
 		(symbol "BK_PCC-4-R_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -2714,11 +3222,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BK_PCC-5-R"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2859,9 +3372,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -2884,9 +3397,9 @@
 		)
 		(symbol "BK_PCC-5-R_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -2932,11 +3445,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Fuse"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3077,9 +3595,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -3102,9 +3620,9 @@
 		)
 		(symbol "Fuse_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -3150,11 +3668,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RSTA_3.15_AMMO"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3286,9 +3809,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -3311,9 +3834,9 @@
 		)
 		(symbol "RSTA_3.15_AMMO_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -3359,11 +3882,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RST_250-BULK"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3504,9 +4032,9 @@
 				)
 			)
 			(arc
-				(start 0 0)
+				(start 3.048 0)
 				(mid 1.524 -1.5174)
-				(end 3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -3529,9 +4057,9 @@
 		)
 		(symbol "RST_250-BULK_1_1"
 			(arc
-				(start 0 0)
+				(start -3.048 0)
 				(mid -1.524 1.5174)
-				(end -3.048 0)
+				(end 0 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -3577,5 +4105,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

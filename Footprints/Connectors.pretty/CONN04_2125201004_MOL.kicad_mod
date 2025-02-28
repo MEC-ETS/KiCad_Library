@@ -258,4 +258,15 @@
 		(uuid "42c87cc0-7474-4359-9722-fc5542735e4d")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connectors/2125201004.stp"
+		(offset
+			(xyz 14.8 -2.5 9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
 )
