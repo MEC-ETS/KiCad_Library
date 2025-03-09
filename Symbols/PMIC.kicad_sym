@@ -236,9 +236,6 @@
 		(embedded_fonts no)
 	)
 	(symbol "367661"
-		(pin_numbers
-			(hide yes)
-		)
 		(pin_names
 			(offset 1.016)
 		)
@@ -657,9 +654,6 @@
 		(embedded_fonts no)
 	)
 	(symbol "380200"
-		(pin_numbers
-			(hide yes)
-		)
 		(pin_names
 			(offset 1.016)
 		)
