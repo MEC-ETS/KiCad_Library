@@ -7588,6 +7588,300 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "61201021621"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "61201021621"
+			(at 0.508 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connectors:61201021621"
+			(at 0.508 -21.336 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "D"
+			(at 0.508 -22.606 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER VERT 10POS 2.54MM"
+			(at 0.508 -18.796 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 0.508 -11.176 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "732-2094-ND"
+			(at 0.508 -8.636 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 0.508 -13.716 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "61201021621"
+			(at 0.508 -16.256 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "idc connector "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "61201021621_0_0"
+			(rectangle
+				(start -2.54 8.89)
+				(end 2.54 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "61201021621_1_1"
+			(pin passive line
+				(at -5.08 7.62 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 7.62 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 5.08 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 0.889 0.889)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "61400413321"
 		(pin_names
 			(offset 0)
@@ -24201,7 +24495,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -2.54 12.7 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24209,7 +24503,7 @@
 			)
 		)
 		(property "Value" "Header_Male_Pin_2.54mm_2X5_,_Unshrouded"
-			(at 0 -8.128 0)
+			(at 0.508 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24218,7 +24512,7 @@
 			)
 		)
 		(property "Footprint" "Connectors:Headers_2.54mm_2X5"
-			(at 0 -23.114 0)
+			(at 0.508 -21.336 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -24227,7 +24521,7 @@
 			)
 		)
 		(property "Datasheet" "D"
-			(at 0 -24.384 0)
+			(at 0.508 -22.606 0)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -24236,7 +24530,7 @@
 			)
 		)
 		(property "Description" "Pin Male Double Row Pin Header Strip"
-			(at 0 -20.574 0)
+			(at 0.508 -18.796 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24245,7 +24539,7 @@
 			)
 		)
 		(property "Supplier" "Ebay"
-			(at 0 -12.954 0)
+			(at 0.508 -11.176 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24254,7 +24548,7 @@
 			)
 		)
 		(property "Supplier Part Number" "Pin Male Single Row Pin Header Strip"
-			(at 0 -10.414 0)
+			(at 0.508 -8.636 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24263,7 +24557,7 @@
 			)
 		)
 		(property "Manufacturer" "Manufacturer"
-			(at 0 -15.494 0)
+			(at 0.508 -13.716 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24272,7 +24566,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "Manufacturer Part Number"
-			(at 0 -18.034 0)
+			(at 0.508 -16.256 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24282,8 +24576,8 @@
 		)
 		(symbol "Header_Male_Pin_2.54mm_2X5_,_Unshrouded_0_0"
 			(rectangle
-				(start -5.08 11.43)
-				(end 0 -1.27)
+				(start -2.54 8.89)
+				(end 2.54 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -24295,7 +24589,7 @@
 		)
 		(symbol "Header_Male_Pin_2.54mm_2X5_,_Unshrouded_1_1"
 			(pin passive line
-				(at -7.62 10.16 0)
+				(at -5.08 7.62 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -24313,7 +24607,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 7.62 0)
+				(at -5.08 5.08 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -24331,7 +24625,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 5.08 0)
+				(at -5.08 2.54 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -24349,7 +24643,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 2.54 0)
+				(at -5.08 0 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -24367,7 +24661,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at -5.08 -2.54 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -24385,7 +24679,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 10.16 180)
+				(at 5.08 7.62 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -24403,7 +24697,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 7.62 180)
+				(at 5.08 5.08 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -24421,7 +24715,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 5.08 180)
+				(at 5.08 2.54 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -24439,7 +24733,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 2.54 180)
+				(at 5.08 0 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -24457,7 +24751,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 0 180)
+				(at 5.08 -2.54 180)
 				(length 2.54)
 				(name "~"
 					(effects
