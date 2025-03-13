@@ -1280,7 +1280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150080VS75000.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150080VS75000.pdf"
 			(at 0.254 -29.972 0)
 			(effects
 				(font

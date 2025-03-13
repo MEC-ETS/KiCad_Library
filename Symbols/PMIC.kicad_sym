@@ -3916,7 +3916,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 20.32 10.16 0)
+			(at 6.35 12.7 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3924,7 +3924,7 @@
 			)
 		)
 		(property "Value" "ATA6561-GAQW-N"
-			(at 20.32 7.62 0)
+			(at 6.35 10.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3932,7 +3932,7 @@
 			)
 		)
 		(property "Footprint" "IC:SOIC8_4P9X3P9MC_MCH"
-			(at 0 0 0)
+			(at -13.97 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +3952,7 @@
 			)
 		)
 		(property "Description" "1/1 Transceiver CANbus 8-SO"
-			(at 0 0 0)
+			(at -13.97 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +3961,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 0 0 0)
+			(at -13.97 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +3970,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "ATA6561-GAQW-N"
-			(at 0 0 0)
+			(at -13.97 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +3979,7 @@
 			)
 		)
 		(property "Supplier Part Number" "ATA6561-GAQW-NCT-ND"
-			(at 0 0 0)
+			(at -13.97 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,7 +3988,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 0 0 0)
+			(at -13.97 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,58 +4014,21 @@
 				(hide yes)
 			)
 		)
-		(symbol "ATA6561-GAQW-N_0_1"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -12.7)
-				)
+		(symbol "ATA6561-GAQW-N_1_1"
+			(rectangle
+				(start -6.35 5.08)
+				(end 6.35 -7.62)
 				(stroke
-					(width 0.127)
-					(type default)
+					(width 0)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy 7.62 -12.7) (xy 33.02 -12.7)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 -12.7) (xy 33.02 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 0 0 0)
-				(length 7.62)
+			(pin output line
+				(at -8.89 2.54 0)
+				(length 2.54)
 				(name "TXD"
 					(effects
 						(font
@@ -4081,9 +4044,9 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 0 -2.54 0)
-				(length 7.62)
+			(pin input line
+				(at -8.89 0 0)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -4100,8 +4063,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -5.08 0)
-				(length 7.62)
+				(at -8.89 -2.54 0)
+				(length 2.54)
 				(name "VCC"
 					(effects
 						(font
@@ -4117,9 +4080,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -7.62 0)
-				(length 7.62)
+			(pin input line
+				(at -8.89 -5.08 0)
+				(length 2.54)
 				(name "RXD"
 					(effects
 						(font
@@ -4135,9 +4098,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 40.64 0 180)
-				(length 7.62)
+			(pin passive line
+				(at 8.89 2.54 180)
+				(length 2.54)
 				(name "STBY"
 					(effects
 						(font
@@ -4153,9 +4116,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 40.64 -2.54 180)
-				(length 7.62)
+			(pin bidirectional line
+				(at 8.89 0 180)
+				(length 2.54)
 				(name "CANH"
 					(effects
 						(font
@@ -4171,9 +4134,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 40.64 -5.08 180)
-				(length 7.62)
+			(pin bidirectional line
+				(at 8.89 -2.54 180)
+				(length 2.54)
 				(name "CANL"
 					(effects
 						(font
@@ -4189,9 +4152,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 40.64 -7.62 180)
-				(length 7.62)
+			(pin input line
+				(at 8.89 -5.08 180)
+				(length 2.54)
 				(name "VIO"
 					(effects
 						(font

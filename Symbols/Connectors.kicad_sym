@@ -6642,12 +6642,13 @@
 	(symbol "430450613"
 		(pin_names
 			(offset 1.016)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -7.62 6.35 0)
+			(at -5.334 5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +6657,7 @@
 			)
 		)
 		(property "Value" "430450613"
-			(at -7.62 -7.62 0)
+			(at -5.588 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,7 +6666,7 @@
 			)
 		)
 		(property "Footprint" "Connectors:MOLEX_430450613"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6693,7 +6694,7 @@
 			)
 		)
 		(property "PARTREV" "G1"
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +6704,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6713,7 +6714,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "9.91mm"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6724,7 @@
 			)
 		)
 		(property "Manufacturer" "Molex"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,7 +6734,7 @@
 			)
 		)
 		(property "Manufacturer Product Number " "0430450613"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6742,7 +6743,7 @@
 			)
 		)
 		(property "Supplier Part Number " "WM2650-ND"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,7 +6752,7 @@
 			)
 		)
 		(property "Supplier" "Digikey"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,45 +6761,9 @@
 			)
 		)
 		(symbol "430450613_0_0"
-			(polyline
-				(pts
-					(xy -7.62 2.54) (xy -5.715 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 0) (xy -5.715 0)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -7.62 -2.54) (xy -5.715 -2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
-				(start -7.62 -5.08)
-				(end 7.62 5.08)
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -6807,75 +6772,9 @@
 					(type background)
 				)
 			)
-			(rectangle
-				(start -6.985 2.2225)
-				(end -5.3975 2.8575)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 -0.3175)
-				(end -5.3975 0.3175)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -6.985 -2.8575)
-				(end -5.3975 -2.2225)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 5.3975 2.2225)
-				(end 6.985 2.8575)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 5.3975 -0.3175)
-				(end 6.985 0.3175)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 5.3975 -2.8575)
-				(end 6.985 -2.2225)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
-					(xy 7.62 2.54) (xy 5.715 2.54)
+					(xy -5.08 2.54) (xy -3.175 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -6887,7 +6786,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 0) (xy 5.715 0)
+					(xy -5.08 0) (xy -3.175 0)
 				)
 				(stroke
 					(width 0.254)
@@ -6899,7 +6798,109 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -2.54) (xy 5.715 -2.54)
+					(xy -5.08 -2.54) (xy -3.175 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -4.445 2.2225)
+				(end -2.8575 2.8575)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -4.445 -0.3175)
+				(end -2.8575 0.3175)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -4.445 -2.8575)
+				(end -2.8575 -2.2225)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.8575 2.2225)
+				(end 4.445 2.8575)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.8575 -0.3175)
+				(end 4.445 0.3175)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 2.8575 -2.8575)
+				(end 4.445 -2.2225)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 3.175 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 3.175 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.175 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -6910,8 +6911,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 2.54 0)
-				(length 5.08)
+				(at -7.62 2.54 0)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -6928,8 +6929,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 0 0)
-				(length 5.08)
+				(at -7.62 0 0)
+				(length 2.54)
 				(name "2"
 					(effects
 						(font
@@ -6946,8 +6947,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -2.54 0)
-				(length 5.08)
+				(at -7.62 -2.54 0)
+				(length 2.54)
 				(name "3"
 					(effects
 						(font
@@ -6964,26 +6965,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 2.54 180)
-				(length 5.08)
-				(name "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 0 180)
-				(length 5.08)
+				(at 7.62 0 180)
+				(length 2.54)
 				(name "5"
 					(effects
 						(font
@@ -7000,8 +6983,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -2.54 180)
-				(length 5.08)
+				(at 7.62 -2.54 180)
+				(length 2.54)
 				(name "6"
 					(effects
 						(font
@@ -7010,6 +6993,26 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "430450613_1_0"
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.016 1.016)
