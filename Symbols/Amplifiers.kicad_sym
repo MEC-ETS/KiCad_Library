@@ -1728,7 +1728,7 @@
 			)
 		)
 		(symbol "INA250A4PWR_1_1"
-			(pin input line
+			(pin power_out line
 				(at -10.16 8.89 0)
 				(length 2.54)
 				(name "IN-"
@@ -1782,7 +1782,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -10.16 1.27 0)
 				(length 2.54)
 				(name "SH-"
@@ -1872,7 +1872,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 10.16 8.89 180)
 				(length 2.54)
 				(name "IN+"
@@ -1926,7 +1926,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 10.16 1.27 180)
 				(length 2.54)
 				(name "SH+"
