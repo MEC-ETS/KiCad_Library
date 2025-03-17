@@ -33820,7 +33820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connectors:1935161"
+		(property "Footprint" "Connectors:AMASS_XT60PW-M"
 			(at 0 -23.114 0)
 			(effects
 				(font
