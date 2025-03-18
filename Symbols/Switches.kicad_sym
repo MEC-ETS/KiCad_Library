@@ -1218,7 +1218,7 @@
 						)
 					)
 				)
-				(number "B1"
+				(number "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1236,7 +1236,7 @@
 						)
 					)
 				)
-				(number "A1"
+				(number "B1"
 					(effects
 						(font
 							(size 1.27 1.27)
