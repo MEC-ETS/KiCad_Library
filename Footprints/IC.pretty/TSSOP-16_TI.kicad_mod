@@ -210,4 +210,15 @@
 		(uuid "4e8bce6d-950a-4144-8cb4-7b8e63c67eb1")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/IC/TSSOP-16.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )
