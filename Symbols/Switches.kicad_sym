@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "100DP3T1B2M2QE"
 		(pin_names
 			(offset 1.016)
@@ -247,10 +247,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "1825910-6"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -529,6 +532,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "428527320916"
 		(pin_names
@@ -725,10 +729,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "800AWSP9M2RE"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -823,7 +830,7 @@
 		(symbol "800AWSP9M2RE_0_1"
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy -2.54 0)
+					(xy -2.54 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0)
@@ -835,7 +842,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 0) (xy -1.27 0)
+					(xy -2.54 -1.27) (xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -859,7 +866,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.254) (xy 1.27 0.254)
+					(xy -0.762 0.254) (xy -0.762 2.286) (xy 0.762 2.286) (xy 0.762 0.254) (xy -0.762 0.254)
 				)
 				(stroke
 					(width 0)
@@ -871,7 +878,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 2.54 0)
+					(xy 0.762 0.254) (xy 1.27 0.254)
 				)
 				(stroke
 					(width 0)
@@ -895,7 +902,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.254) (xy -0.762 2.286) (xy 0.762 2.286) (xy 0.762 0.254) (xy -0.762 0.254)
+					(xy 2.54 -1.27) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -907,24 +914,6 @@
 			)
 		)
 		(symbol "800AWSP9M2RE_1_1"
-			(pin input line
-				(at 5.08 -1.27 180)
-				(length 2.4892)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -5.08 -1.27 0)
 				(length 2.4892)
@@ -943,7 +932,232 @@
 					)
 				)
 			)
+			(pin input line
+				(at 5.08 -1.27 180)
+				(length 2.4892)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "D501J12S2APQA"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "S"
+			(at 8.89 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "D501J12S2APQA"
+			(at 8.89 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "Switches:D501J12S2APQA"
+			(at 21.59 -94.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/1439/d.pdf"
+			(at 21.59 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rocker Switch SPDT 10A (AC) 125 V Panel Mount, Snap-In, Right Angle"
+			(at -12.7 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "15"
+			(at 21.59 -394.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "CKN10848-ND"
+			(at 21.59 -494.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 21.59 -594.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "D501J12S2APQA"
+			(at 21.59 -694.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 21.59 -794.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(symbol "D501J12S2APQA_1_1"
+			(rectangle
+				(start -7.62 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -12.7 2.54 0)
+				(length 5.08)
+				(name "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 12.7 2.54 180)
+				(length 5.08)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 0 180)
+				(length 5.08)
+				(name "COM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -2.54 180)
+				(length 5.08)
+				(name "NO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "DIP_SW_3"
 		(pin_names
@@ -1037,7 +1251,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 5.08) (xy 1.27 5.08)
+					(xy -5.08 5.08) (xy -1.27 5.08) (xy 1.27 6.35)
 				)
 				(stroke
 					(width 0)
@@ -1049,7 +1263,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 5.08) (xy -1.27 5.08) (xy 1.27 6.35)
+					(xy 5.08 5.08) (xy 1.27 5.08)
 				)
 				(stroke
 					(width 0)
@@ -1063,19 +1277,7 @@
 		(symbol "DIP_SW_3_1_1"
 			(polyline
 				(pts
-					(xy 5.08 -2.54) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 1.27) (xy 1.27 1.27)
+					(xy -5.08 1.27) (xy -1.27 1.27) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1099,7 +1301,19 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 1.27) (xy -1.27 1.27) (xy 1.27 2.54)
+					(xy 5.08 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1164,7 +1378,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -2.54 180)
+				(at 10.16 5.08 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -1173,7 +1387,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1200,7 +1414,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 5.08 180)
+				(at 10.16 -2.54 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -1209,7 +1423,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1218,10 +1432,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GW12LBP"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1318,8 +1535,8 @@
 					(type none)
 				)
 			)
-			(text "OFF"
-				(at 2.54 -1.27 0)
+			(text "ON"
+				(at 2.54 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1327,8 +1544,8 @@
 					(justify right)
 				)
 			)
-			(text "ON"
-				(at 2.54 1.27 0)
+			(text "OFF"
+				(at 2.54 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1363,24 +1580,6 @@
 			)
 		)
 		(symbol "GW12LBP_1_1"
-			(pin passive line
-				(at 5.08 -1.27 180)
-				(length 2.54)
-				(name "OFF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -6.35 0 0)
 				(length 2.54)
@@ -1417,11 +1616,32 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 5.08 -1.27 180)
+				(length 2.54)
+				(name "OFF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "GW12LCP"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1543,8 +1763,8 @@
 					(type none)
 				)
 			)
-			(text "OFF"
-				(at 2.54 -1.27 0)
+			(text "ON"
+				(at 2.54 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1552,8 +1772,8 @@
 					(justify right)
 				)
 			)
-			(text "ON"
-				(at 2.54 1.27 0)
+			(text "OFF"
+				(at 2.54 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1573,24 +1793,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(pin passive line
-				(at 5.08 -1.27 180)
-				(length 2.54)
-				(name "OFF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin passive line
@@ -1629,11 +1831,32 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 5.08 -1.27 180)
+				(length 2.54)
+				(name "OFF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "K12PBK15N"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1728,7 +1951,7 @@
 		(symbol "K12PBK15N_0_1"
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy -2.54 0)
+					(xy -2.54 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0)
@@ -1740,7 +1963,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 0) (xy -1.27 0)
+					(xy -2.54 -1.27) (xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -1764,7 +1987,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0.254) (xy 1.27 0.254)
+					(xy -0.762 0.254) (xy -0.762 2.286) (xy 0.762 2.286) (xy 0.762 0.254) (xy -0.762 0.254)
 				)
 				(stroke
 					(width 0)
@@ -1776,7 +1999,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 2.54 0)
+					(xy 0.762 0.254) (xy 1.27 0.254)
 				)
 				(stroke
 					(width 0)
@@ -1800,7 +2023,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0.254) (xy -0.762 2.286) (xy 0.762 2.286) (xy 0.762 0.254) (xy -0.762 0.254)
+					(xy 2.54 -1.27) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -1812,24 +2035,6 @@
 			)
 		)
 		(symbol "K12PBK15N_1_1"
-			(pin input line
-				(at 5.08 -1.27 180)
-				(length 2.4892)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at -5.08 -1.27 0)
 				(length 2.4892)
@@ -1848,11 +2053,32 @@
 					)
 				)
 			)
+			(pin input line
+				(at 5.08 -1.27 180)
+				(length 2.4892)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PTS645SM43SMTR92"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2131,6 +2357,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Rocker_SPDT_illuminated"
 		(pin_names
@@ -2333,10 +2560,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Tact_switch"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2615,10 +2845,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Tact_switch_SYMBOL"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2888,6 +3121,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Template_Lib"
 		(pin_names
@@ -2937,5 +3171,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
